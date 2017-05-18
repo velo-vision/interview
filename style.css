@@ -2385,3 +2385,128 @@ width:10%;
 padding:0px 3px;
 }
 }
+
+
+/*Este*/
+.fondoInicio{
+  background: url("images/app/fondo.jpg") no-repeat center center;
+  background-size: 100%;
+}
+.imgPrincipal{
+  width: 50%;
+  padding: 54% 24%;
+}
+/*sesion*/
+
+.fondo2{
+  background: url("images/app/fondo2.jpg") no-repeat center center;
+  background-size: 100%;
+  height: 250px;
+}
+
+.imgsession {
+    width: 52%;
+    padding: 12% 26%;
+}
+
+.inicioSesion{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color:#ff5252;
+  font-weight: 500;
+}
+.inicioSesion p{
+  margin:8%;
+}
+.marginses{
+  margin: 10% 0;
+}
+.btnSes{
+  color:#fff !important;
+  background: #ff5252 !important;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btnSes2{
+  color:#fff !important;
+  background: #06c1d0 !important;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.circulorojo{
+  width: 20px;
+  height: 20px;
+  background: #ff5252;
+  border-radius: 50%;
+}
+.circuloazul{
+  width: 15px;
+  height: 15px;
+  background: #06edff;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.marginses20{
+  margin: 20% 0;
+}
+
+.circulosColores{
+  margin: 20% 0 0 0;
+}
+/*fin*/
+
+/*inicio de sesion*/
+.campos{
+  font-family: 'Lato', sans-serif;
+  border: solid 1px #8f8f8f;
+  border-radius: 8px;
+  height: 30px;
+  width: 100%;
+  color: #b7b7b7;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.margininiciosesion{
+  margin: 5% 0;
+}
+.olvide p{
+   font-family: 'Lato', sans-serif;
+   font-size: 13px;
+   color:#585858;
+   font-weight: 400;
+   text-align: center;
+}
+
+.no-tienes{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color:#2fb8cb;
+  font-size: 13px;
+}
+
+.margin-no{
+  margin: 4% 0 0 0;
+}
+
+.circulorojo1{
+  width: 15px;
+  height: 15px;
+  background: #ff5252;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.circuloazul1{
+  width: 20px;
+  height: 20px;
+  background: #06edff;
+  border-radius: 50%;
+}
+.margin-no-sup{
+  margin-top: 5%;
+}
+.margin-tres{
+  margin: 3% 0;
+}
