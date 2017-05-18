@@ -25,7 +25,7 @@ Template:	Varius - Mobile HTML Template
     7-4. MUSIC LIST DESIGN LAYOUT
 8. POPUPS
 9. SHOP LAYOUT
-     9-1. SHOP ITEM PAGE 
+     9-1. SHOP ITEM PAGE
      9-2. SHOPPING CART - CECKOUT
      9-3. SUCCESS PAGE
 10. PHOTO GALLERY
@@ -40,10 +40,10 @@ Template:	Varius - Mobile HTML Template
 /* 1. RESET		 						 */
 /*===============================================*/
 @import "css/reset.css";
-
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 /*===============================================*/
 /* 2. GENERAL		 						 */
-/*===============================================*/	
+/*===============================================*/
 html,
 body {
 position: relative;
@@ -63,13 +63,13 @@ width: 100%;
 overflow: hidden;
 font-weight:300;
 }
-.clear{ 
-clear:both; 
+.clear{
+clear:both;
 display:block;
 }
-.clearleft{ 
-clear:both; 
-float:left; 
+.clearleft{
+clear:both;
+float:left;
 display:block;
 }
 a {
@@ -98,9 +98,9 @@ text-transform:uppercase;
 line-height:30px;
 }
 .videocontainer{
-max-width:100%; 
-padding:0; 
-display: block; 
+max-width:100%;
+padding:0;
+display: block;
 margin:0;
 }
 #mobile_wrap{
@@ -109,7 +109,7 @@ margin:auto;
 }
 /*===============================================*/
 /* 3. H TITLES		 						 */
-/*===============================================*/	
+/*===============================================*/
 h1, h2, h3, h4, h5, h6{
 	font-weight:300;
 	letter-spacing:-0.5px;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
 	font-size:60px;
-	
+
 }
 h2{
 	font-size:26px;
@@ -187,7 +187,7 @@ width:100%;
 height:70px;
 z-index:999999;
 }
-/* HEADER LEFT */	
+/* HEADER LEFT */
 .navbar_left{
 float:left;
 width:40%;
@@ -198,7 +198,7 @@ display:inline-block;
 max-width:100%;
 padding:8px 0 0 0;
 }
-.logo_text{ 
+.logo_text{
 font-size:32px;
 line-height:70px;
 font-weight:900;
@@ -206,12 +206,12 @@ font-weight:900;
 .logo_text a{
 color:#222222;
 }
-.logo_image a img{ 
+.logo_image a img{
 display:inline-block;
 max-width:17%;
 padding:23px 0 0 0;
 }
-/* HEADER CENTER */	
+/* HEADER CENTER */
 .navbar_center{
 float:left;
 width:46%;
@@ -229,7 +229,7 @@ font-weight:300;
 display:inline-block;
 color:#FFFFFF;
 }
-/* HEADER RIGHT */	
+/* HEADER RIGHT */
 .navbar_right{
 float:right;
 width:70px;
@@ -244,16 +244,16 @@ max-width:40%;
 padding:20px 0 0 0;
 }
 .whitebg{
-background-color:#ffffff;	
+background-color:#ffffff;
 }
 .graybg{
-background-color:#f7f7f7;	
+background-color:#f7f7f7;
 }
 /*===============================================*/
 /* 5. CUSTOM BUTTONS */
-/*===============================================*/	
+/*===============================================*/
 a.button_full{
-width:100%; 
+width:100%;
 display:inline-block;
 padding:20px 0;
 margin:0 auto 20px auto;
@@ -261,9 +261,9 @@ font-size:18px;
 text-align:center;
 }
 a.button_small{
-background-color:#f9f301; 
+background-color:#f9f301;
 display:inline-block;
-color:#222222; 
+color:#222222;
 padding:10px 20px;
 text-align:center;
 -webkit-appearance: none;
@@ -309,7 +309,7 @@ color: #222222;
 }
 .btyellow{
 background-color:#f9f301;
-color:#222222; 
+color:#222222;
 }
 .btmint{
 background-color:#61bb7e;
@@ -317,7 +317,7 @@ color:#fff;
 }
 /*===============================================*/
 /* 6. LEFT AND RIGHT SLIDE PANELS */
-/*===============================================*/	
+/*===============================================*/
 .panel {
 z-index: 1000;
 display: none;
@@ -599,7 +599,7 @@ font-size:16px;
 }
 /*===============================================*/
 /* 7. PAGES LAYOUT GENERAL */
-/*===============================================*/	
+/*===============================================*/
 .homepage{
 background-color:#000;
 }
@@ -607,12 +607,12 @@ background-color:#000;
 width:100%;
 padding:0 0 30px 0;
 margin:0px;
-position: absolute; 
-top: 70px; 
-left: 0; 
-right: 0; 
+position: absolute;
+top: 70px;
+left: 0;
+right: 0;
 bottom: 0px;
-overflow: scroll; 
+overflow: scroll;
 -webkit-overflow-scrolling: touch;
 }
 #pages_maincontent p{
@@ -679,13 +679,13 @@ background-color:#f9f301;
 .swiper-slide {
 width:100%;
 text-align:left;
--webkit-background-size: 100%; 
+-webkit-background-size: 100%;
 -moz-background-size: 100%;
 -o-background-size: 100%;
 background-size: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
--o-background-size: cover; 
+-o-background-size: cover;
 background-size: cover;
 background-position:center center;
 }
@@ -718,7 +718,7 @@ z-index:99999;
 padding:0 5%;
 }
 .slidertoolbar .slider-caption{
-bottom:30%;	
+bottom:30%;
 }
 .slider-caption h2{
 width:100%;
@@ -730,7 +730,7 @@ font-weight:900;
 letter-spacing:-1px;
 color:#f9f301;
 line-height:85px;
-} 
+}
 .slider-caption span.subtitle{
 width:100%;
 margin:0px 0 10px 0;
@@ -738,7 +738,7 @@ font-size:22px;
 font-weight:700;
 color:#fff;
 display:block;
-} 
+}
 .slider-caption p{
 color:#ffffff;
 font-size:16px;
@@ -949,9 +949,9 @@ margin:auto;
 
 /* 7-4. MUSIC LIST DESIGN LAYOUT */
 
-.audiojs{ 
+.audiojs{
 width:100%;
-margin:auto; 
+margin:auto;
 box-shadow:none;
 background-image:none;
 }
@@ -1004,7 +1004,7 @@ line-height:30px;
 }
 /*===============================================*/
 /* 8. POPUPS */
-/*===============================================*/	
+/*===============================================*/
 .popup{
 background-color:#FFFFFF;
 }
@@ -1073,7 +1073,7 @@ right:0px;
 .close_popup_button a img{
 display:block;
 max-width:60%;
-margin:auto; 
+margin:auto;
 }
 /*===============================================*/
 /* 9. SHOP LAYOUT */
@@ -1544,11 +1544,11 @@ width:100%;
 clear:both;
 display:block;
 float:left;
-padding:15px 0; 
-margin:15px 0; 
+padding:15px 0;
+margin:15px 0;
 font-weight:normal;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:14px;
 color:#FFFFFF;
 -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
@@ -1624,43 +1624,43 @@ display:inline-block;
 max-width:70%;
 }
 ul.photo_gallery_13, ul.photo_gallery_12, ul.photo_gallery_11{
-width:90%; 
-list-style:none; 
-padding:0px; 
+width:90%;
+list-style:none;
+padding:0px;
 margin:15px 5% 70px 5%;
-float:left; 
+float:left;
 clear:both;
-} 
-ul.photo_gallery_13 li{ 
-width:33.3%; 
-padding:0; 
-float:left; 
-margin:0; 
 }
-ul.photo_gallery_13 li img{ 
-max-width:100%; 
-display:block; 
-}
-ul.photo_gallery_12 li{ 
-width:50%; 
-padding:0; 
-float:left;  
+ul.photo_gallery_13 li{
+width:33.3%;
+padding:0;
+float:left;
 margin:0;
 }
-ul.photo_gallery_12 li img{ 
-max-width:100%; 
+ul.photo_gallery_13 li img{
+max-width:100%;
 display:block;
 }
-ul.photo_gallery_11 li{ 
-width:100%; 
-padding:0; 
-float:left; 
+ul.photo_gallery_12 li{
+width:50%;
+padding:0;
+float:left;
+margin:0;
+}
+ul.photo_gallery_12 li img{
+max-width:100%;
+display:block;
+}
+ul.photo_gallery_11 li{
+width:100%;
+padding:0;
+float:left;
 margin:0;
 }
 ul.photo_gallery_11 li img{
-max-width:100%; 
+max-width:100%;
 display:block;
-} 
+}
 .photo-categories{
 width:90%;
 padding:0;
@@ -1684,7 +1684,7 @@ background-color:#f9f301;
 
 /*===============================================*/
 /* 11. BLOG LAYOUT */
-/*===============================================*/	
+/*===============================================*/
 .list-block {
 margin:0px 0;
 }
@@ -1869,18 +1869,18 @@ font-style:italic;
 
 /*===============================================*/
 /* 12. FORMS */
-/*===============================================*/	
+/*===============================================*/
 /* 12.1 LOGIN FORM */
 .loginform{
 width:90%;
 padding:0 0 15px 5%;
 }
 .loginform label.error{
-padding:0 0 20px 0; 
+padding:0 0 20px 0;
 margin:0px;
 line-height:10px;
-width:100%; 
-text-align:left; 
+width:100%;
+text-align:left;
 font-size:14px;
 color:#f65821;
 font-weight:400;
@@ -1888,8 +1888,8 @@ clear:both;
 float:left;
 }
 .loginform input.form_input{
-padding:10px 3%; 
-width:93%; 
+padding:10px 3%;
+width:93%;
 margin:0 0 15px 0;
 border-bottom:1px solid #d5d5d5;
 border-left:none;
@@ -1903,8 +1903,8 @@ color:#000000;
  background-color:#f5f5f5;
 }
 .loginform .form_select{
-padding:2% 3%; 
-width:100%; 
+padding:2% 3%;
+width:100%;
 margin:20px 0 10px 0;
 border-bottom:1px solid #d5d5d5;
 border-left:none;
@@ -1917,12 +1917,12 @@ background:url(images/dropdown.png) no-repeat right;
 .loginform .form_select option{
 padding:3px;
 }
-.loginform input.form_submit{ 
+.loginform input.form_submit{
 width:100%;
-padding:12px 0; 
-margin:10px 0 0 0; 
+padding:12px 0;
+margin:10px 0 0 0;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:18px;
 font-weight:300;
 color:#222222;
@@ -1991,28 +1991,28 @@ padding:0 0 15px 0;
 }
 .contactform label{
 width:100%;
-padding:5px 0 3px 0; 
-display:block; 
+padding:5px 0 3px 0;
+display:block;
 font-size:16px;
 font-weight:700;
 }
 .contactform label.error{
-padding:0 0 10px 0; 
-width:100%; 
-text-align:left; 
+padding:0 0 10px 0;
+width:100%;
+text-align:left;
 font-size:14px;
 color:#f65821;
 font-weight:400;
 }
 .contactform input.form_input{
-padding:3%; 
-width:93%; 
+padding:3%;
+width:93%;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 }
 .contactform select.form_select{
-padding:3%; 
-width:100%; 
+padding:3%;
+width:100%;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 }
@@ -2036,19 +2036,19 @@ display:inline-block;
 width:auto;
 }
 .contactform textarea.form_textarea{
-padding:3%; 
-width:93%; 
-height:50px; 
+padding:3%;
+width:93%;
+height:50px;
 margin:0 0 5px 0;
 border:1px solid #ddd;
 }
-.contactform input.form_submit{ 
+.contactform input.form_submit{
 width:100%;
-padding:4% 0 4% 0; 
-margin:10px 0 0 0; 
+padding:4% 0 4% 0;
+margin:10px 0 0 0;
 font-weight:normal;
 text-align:center;
-cursor:pointer; 
+cursor:pointer;
 font-size:20px;
 background-color:#f9f301;
 color:#222222;
@@ -2061,7 +2061,7 @@ h2#Note{
 
 /*===============================================*/
 /* 13. TABS & ACCORDION & TABLES */
-/*===============================================*/	
+/*===============================================*/
 .tabs-animated-wrap, .tabs-simple{
 position: relative;
 width: 100%;
@@ -2114,36 +2114,36 @@ padding:0px 15px;
 }
 
 /* TABLES */
-ul.responsive_table{ 
-width:100%; 
-float:left; 
-clear:both; 
-margin:0 0 10px 0; 
-padding:0px; 
+ul.responsive_table{
+width:100%;
+float:left;
+clear:both;
+margin:0 0 10px 0;
+padding:0px;
 list-style:none;
 }
 li.table_row{
-width:100%; 
-float:left; 
-clear:both; 
+width:100%;
+float:left;
+clear:both;
 line-height:30px;
-padding:0px; 
+padding:0px;
 list-style:none;
 margin:0 0 1px 0;
 background-color:#f5f5f4;
 }
 .table_section_small{
-width:14%; 
-float:left; 
-padding:0 0 0 2%;
-}
-.table_section{ 
-width:40%; 
+width:14%;
 float:left;
 padding:0 0 0 2%;
 }
-.table_section_14{ 
-width:23%; 
+.table_section{
+width:40%;
+float:left;
+padding:0 0 0 2%;
+}
+.table_section_14{
+width:23%;
 float:left;
 padding:0 0 0 2%;
 text-align:center;
@@ -2168,17 +2168,100 @@ background-color:#94cb01;
 color:#FFFFFF;
 font-size:12px;
 -moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;
-}  
+}
 ul.responsive_table li:first-child{
 background-color:#f9f301;
 color:#222222;
 }
+/*style jorge************************************/
+.contactform select.form_select1 {
+    padding: 6%;
+    width: 122%;
+    font-size: 12px;
+    margin: 0px 0 5px -12px;
+    border: 1px solid #9f9f9f;
+    background: #9f9f9f;
+    height: 3em;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.contactform select.form_select2 {
+    padding: 3%;
+    width: 100%;
+		font-size: 12px;
+    margin: 0 0 5px 0;
+    border: 2px solid #ff5252;
+    border-radius: 5px;
+    height: 3em;
+		color: #ff5252;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+.contactform input.form_input1 {
+    padding: 3%;
+    width: 93%;
+		font-size: 12px;
+    margin: 0 0 5px 0;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    height: 2em;
+    text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+.contactform input.form_submit1 {
+		width: 80%;
+		padding: 4% 0 4% 0;
+		margin: 10px 0 0 30px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ff5252;
+    color: #b7b7b7;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+    height: 3em;
+    border-radius: 5px;
+    text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+.contactform label1 {
+    width: 100%;
+    padding: 5px 0 3px 0;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+		color:#b7b7b7;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+#pages_maincontent .subir img {
+    display: block;
+    max-width: 90%;
+		float: right;
+	  margin-top: 50px;
+}
+#pages_maincontent .camara img {
+    display: block;
+    max-width: 90%;
+		float: left;
+		margin-top: 50px;
+}
 /*===============================================*/
 /* 14. MEDIA QUERIES */
-/*===============================================*/	
+/*===============================================*/
 /* -------------SMALL DESKTOP--------- */
 @media screen and (max-width: 1200px) {
-.logo_image a img{ 
+.logo_image a img{
 max-width:22%;
 padding:25px 0 0 0;
 }
@@ -2199,20 +2282,20 @@ max-width:60%;
 height:60px;
 }
 #pages_maincontent{
-top: 60px; 
+top: 60px;
 }
 .navbar_right{
 width:60px;
 height:60px;
 }
-.logo_image a img{ 
+.logo_image a img{
 max-width:30%;
 padding:22px 0 0 0;
 }
 .slider-caption h2{
 font-size:55px;
 line-height:65px;
-} 
+}
 .slider-caption span.subtitle{
 font-size:18px;
 }
@@ -2223,7 +2306,7 @@ line-height:22px;
 blockquote span{
 font-size:14px;
 line-height:22px;
-} 
+}
 ul.features_list li{
 width:96%;
 clear:both;
@@ -2269,18 +2352,18 @@ height: 100%;
 .navbarpages{
 height:50px;
 }
-.logo_text{ 
+.logo_text{
 font-size:22px;
 line-height:50px;
 }
-.logo_image a img{ 
+.logo_image a img{
 max-width:50%;
 padding:17px 0 0 0;
 }
 .toolbar-icon a img{
 margin:20% auto 0 auto;
 }
-/* HEADER RIGHT */	
+/* HEADER RIGHT */
 .navbar_right{
 width:55px;
 height:50px;
@@ -2290,7 +2373,7 @@ max-width:40%;
 padding:12px 0 0 0;
 }
 #pages_maincontent{
-top: 50px; 
+top: 50px;
 }
 .slider-caption{
 bottom:20%;
@@ -2298,10 +2381,10 @@ bottom:20%;
 .slider-caption h2{
 font-size:32px;
 line-height:35px;
-} 
+}
 .slider-caption span.subtitle{
 font-size:16px;
-} 
+}
 .slider-caption p{
 font-size:14px;
 }
@@ -2365,11 +2448,11 @@ max-width:60%;
 }
 /* -----------------SMALL MOBILE---------------- */
 @media screen and (max-width: 470px) {
-.logo_image a img{ 
+.logo_image a img{
 display:inline-block;
 max-width:60%;
 padding:17px 0 0 0;
-}	
+}
 .gallery_switch a{
 width:8%;
 padding:0px 5px;
@@ -2379,7 +2462,7 @@ max-width:100%;
 }
 }
 /* -----------------SMALLER MOBILE---------------- */
-@media screen and (max-width: 360px) {	
+@media screen and (max-width: 360px) {
 .gallery_switch a{
 width:10%;
 padding:0px 3px;
