@@ -8,12 +8,11 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 <link href="images/apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
 <link href="images/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<title>InterView</title>
+<title>varius - mobile template</title>
 <link rel="stylesheet" href="css/framework7.css">
 <link rel="stylesheet" href="style.css">
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
-
 </head>
 <body id="mobile_wrap">
 
@@ -104,65 +103,32 @@
                   <!-- Slider -->
                  <div class="swiper-container swiper-init" data-effect="slide" data-parallax="true" data-pagination=".swiper-pagination" data-paginationClickable="true">
                     <div class="swiper-wrapper">
-                    <!-- aqui -->
-                      <div class="swiper-slide" style="background:#fff;">
-                		     <div class="slider_trans">
-                    			 <div class="slider-caption">				  
-                              <div class="row fondoInicio">
-                                <div class="col-100">
-                                  <img src="images/app/interview_logo.png" class="imgPrincipal">
-                                </div>
-                              </div>                   
-                    			 </div>
-                		      </div> 
+                    
+                      <div class="swiper-slide" style="background-image:url(images/slide1.jpg);">
+		     <div class="slider_trans">
+			 <div class="slider-caption">
+				  <h2 data-swiper-parallax="-100%">THE CREATIVE</h2>
+				  <span class="subtitle" data-swiper-parallax="-60%">MOBILE APP SOLUTION</span>
+				  <p data-swiper-parallax="-30%">You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality.</p>
+			 </div>
+		      </div> 
                        </div>
-                    <!-- aqui -->
-
-                      <div class="swiper-slide" style="background:#fff;">
-                  			<div class="slider_trans">
-                        <!-- aqui -->		  
-                  				<div>
-                              <div class="row">
-                                <div class="col-100 fondo2">
-                                  <img src="images/app/interview_logo.png" class="imgsession">
-                                </div>
-                              </div>
-                              <div class="row marginses">
-                                <div class="col-30"></div>
-                                  <div class="col-30 inicioSesion"><p>INICIAR SESIÓN</p></div>
-                                <div class="col-30"></div>
-                              </div>
-                              <div class="row">
-                              <div class="col-10"></div>                   
-                                <div class="col-80">
-                                  <a href="#" class="button active btnSes">BECARIO</a>
-                                </div>
-                                <div class="col-10"></div>
-                              </div>
-                              <div class="row marginses">
-                              <div class="col-10"></div>                   
-                                <div class="col-80">
-                                  <a href="#" class="button active btnSes2">EMPRESA</a>
-                                </div>
-                                <div class="col-10"></div>
-                              </div>
-                              <div class="row circulosColores">
-                                <div class="col-40"></div>
-                                <div class="col-10"><div class="circulorojo"></div></div>
-                                <div class="col-10"><div class="circuloazul"></div></div>
-                                <div class="col-40"></div>
-                              </div>            
-                            </div> 
-                            <!-- aqui -->
-                  			</div>	
+                      <div class="swiper-slide" style="background-image:url(images/slide2.jpg);">
+			<div class="slider_trans">		  
+				<div class="slider-caption">
+				<h2 data-swiper-parallax="-100%">WITH BEAUTIFUL</h2>
+				<span class="subtitle" data-swiper-parallax="-60%">MULTIPURPOSE DESIGNS</span>
+				<p data-swiper-parallax="-30%">You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality.</p>
+				</div>	
+			</div>	
                       </div>
                       <div class="swiper-slide" style="background-image:url(images/slide3.jpg);">
-                  			<div class="slider_trans">		  
-                  				<div class="slider-caption">
-                  				<h2 data-swiper-parallax="-100%">READY FOR APPS</h2>
-                  				<span class="subtitle" data-swiper-parallax="-60%">WEB AND NATIVE</span>
-                  				<p data-swiper-parallax="-30%">You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality.</p>
-                  				</div>
+			<div class="slider_trans">		  
+				<div class="slider-caption">
+				<h2 data-swiper-parallax="-100%">READY FOR APPS</h2>
+				<span class="subtitle" data-swiper-parallax="-60%">WEB AND NATIVE</span>
+				<p data-swiper-parallax="-30%">You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality.</p>
+				</div>
                        </div>
 		   </div> 		   
                     </div>
@@ -187,9 +153,23 @@
 
 	
     <!-- Login Popup -->
-    <!-- <div class="popup popup-login">
-        <div class="content-block">
-            <h4>LOGIN</h4>
+    <div class="popup popup-login fondoInicio">
+        <div class="content-block ">
+          <!-- <div class="page " data-page="home" > -->
+            <!-- <a href="index.html" class="close-panel" data-view=".view-main"> -->
+            
+              <div class="page-content ">
+              <div class="row">
+                  <div class="col-33"></div>
+                  <div class="col-33">
+                    <img src="images/app/interview_logo.png" class="imgPrincipal">
+                  </div>
+                <div class="col-33"></div>
+              </div>          
+              </div>
+           <!--  </a> -->
+         <!--  </div> -->
+            <!-- <h4>LOGIN</h4>
             <div class="loginform">
                 <form id="LoginForm" method="post">
                     <input type="text" name="Username" value="" class="form_input required" placeholder="username" />
@@ -204,12 +184,12 @@
             </div>
             <div class="close_popup_button">
                 <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
-            </div>
+            </div> -->
         </div>
-    </div> -->
+    </div>
 
     <!-- Register Popup -->
-    <!-- <div class="popup popup-signup">
+    <div class="popup popup-signup">
         <div class="content-block">
             <h4>REGISTER</h4>
             <div class="loginform">
@@ -229,10 +209,10 @@
                 <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
             </div>
         </div>
-    </div> -->
+    </div>
 	
     <!-- Forgot Password Popup -->
-   <!--  <div class="popup popup-forgot">
+    <div class="popup popup-forgot">
         <div class="content-block">
             <h4>FORGOT PASSWORD</h4>
             <div class="loginform">
@@ -248,10 +228,10 @@
                 <a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a>
             </div>
         </div>
-    </div> -->
+    </div>
 	
     <!-- Social Icons Popup -->
-    <!-- <div class="popup popup-social">
+    <div class="popup popup-social">
     <div class="content-block">
       <h4>Social Share</h4>
       <p>Share icons solution that allows you share and increase your social popularity.</p>
@@ -265,7 +245,7 @@
       </ul>
       <div class="close_popup_button"><a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
     </div>
-    </div> -->
+    </div>
     
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js" ></script>
