@@ -2657,3 +2657,38 @@ padding:0px 3px;
 .margin-tres{
   margin: 3% 0;
 }
+/*perfil a emprezar*/
+
+.fondoRojo{
+  background:#ff5454;
+}
+.imgane-foot{
+  background: url("images/app/3.png") no-repeat center center;
+}
+.imgsession2 {
+    width: 100%;
+    padding: 9% 0%;
+}
+
+.nombreUsu{
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color:#fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nombreUsu p{
+  margin: 11% 0 !important;
+}
+.parrafo-usu{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:#424242;
+}
+
+.parrafo-usu p{
+  line-height: 18px !important;
+}
