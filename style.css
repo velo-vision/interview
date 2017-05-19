@@ -715,6 +715,7 @@ z-index:9999;
 position:absolute;
 bottom:30%;
 left:0px;
+width: 90%;
 z-index:99999;
 padding:0 5%;
 }
@@ -746,7 +747,7 @@ font-size:16px;
 }
 .swiper-container > .swiper-pagination {
 bottom: 5%;
-left: 5%;
+left: 36%;
 width: 95%;
 }
 .slidertoolbar > .swiper-pagination {
@@ -761,7 +762,7 @@ width: 95%;
 }
 .swiper-container .swiper-pagination-bullet-active {
 opacity: 1;
-background: #f9f301;
+background: #fff;
 }
 .swiper-container-pages .swiper-pagination-bullet-active {
 opacity: 1;
@@ -2175,6 +2176,29 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.text-elegir{
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+  font-weight: 700;
+}
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px !important;
+    border-radius: 12px !important;
+    display: inline-block;
+    background: #fff;
+    opacity: 0.5;
+    text-align: center;
+}
+.slider-caption span.subtitle1{
+font-size:20px;
+text-transform: uppercase;
+color: #fff;
+margin-left: 25px;
+font-weight: 700;
+text-align: center;
+}
 .contactform select.form_select1 {
     padding: 6%;
     width: 122%;
@@ -2198,6 +2222,19 @@ color:#222222;
     border-radius: 5px;
     height: 3em;
 		color: #ff5252;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+.contactform select.form_select3 {
+    padding: 3%;
+    width: 100%;
+		font-size: 12px;
+    margin: 0 0 5px 0;
+    border: 2px solid #f39a9a;
+		background: #ea5151;
+    height: 4em;
+		color: #fff;
 		text-transform: uppercase;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
@@ -2316,10 +2353,11 @@ color:#222222;
   opacity: 1;
 }
 .text-inter{
-	font-size: 2.2em;
+	font-size: 2.4em;
 	color: #fff;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 600;
+  margin-top: 90px;
 }
 .text-inter span{
 	color: #06ecff;
@@ -2455,7 +2493,7 @@ line-height:35px;
 font-size:16px;
 }
 .slider-caption p{
-font-size:14px;
+font-size:18px;
 }
 /* PANEL RIGHT AND LEFT */
 .panel {
