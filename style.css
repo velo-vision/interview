@@ -2660,7 +2660,9 @@ padding:0px 3px;
 /*perfil a emprezar*/
 
 .fondoRojo{
-  background:#ff5454;
+	background: url(images/app/blanco.png) no-repeat center center;
+	height: 100%;
+  background-size: 100%;
 }
 .imgane-foot{
   background: url("images/app/3.png") no-repeat center center;
@@ -2672,14 +2674,18 @@ padding:0px 3px;
 
 .nombreUsu{
   font-family: 'Lato', sans-serif;
-  font-size: 23px;
+  font-size: 1.4em;
   color:#fff;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
 }
+.flecha img{
+	text-align: center;
+	margin: 0 auto;
+}
 .nombreUsu p{
-  margin: 11% 0 !important;
+	padding: 13% 0px 10px 0 !important;
 }
 .parrafo-usu{
   font-family: 'Lato', sans-serif;
