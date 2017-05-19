@@ -2681,8 +2681,7 @@ padding:0px 3px;
   text-align: center;
 }
 .flecha img{
-	text-align: center;
-	margin: 0 auto;
+	margin: 11% 47% 0;
 }
 .nombreUsu p{
 	padding: 13% 0px 10px 0 !important;
@@ -2697,4 +2696,34 @@ padding:0px 3px;
 
 .parrafo-usu p{
   line-height: 18px !important;
+}
+
+.Comenzar{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color:#ff5454;
+  text-align: center;
+}
+
+/**********mobile**/
+@media screen and (min-width: 414px) and (max-width: 768px){
+.flecha img {
+   margin: 22% 47% 0 !important;
+}
+
+}
+
+@media screen and (max-width: 680px) {
+  .flecha img {
+    margin: 18% 47% 0 ;
+}
+}
+
+@media screen and (max-width: 568px) {
+  .flecha img {
+    margin: 12% 47% 0;
+}
+}
+/*small mobile*/
+@media screen and (max-width: 470px) {
 }
