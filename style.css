@@ -2884,6 +2884,46 @@ padding:0px 3px;
   margin-top: 7px;
   margin-left: 16px;
 }
+
+/*video*/
+.video-view{
+  width: 100%;
+  height: 200px;
+}
+.sin-nada{
+  width: 100%;
+  margin: 0px;
+}
+.videitos{
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  color:#fff;
+  text-align: center;
+}
+.opciones-video{
+  border-radius: 8px;
+  background: #ea5151;
+  color:#fff;
+}
+.sep-vide{
+  padding-top: 70px
+}
+.img-video{
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.parvid{
+  text-align: center;
+  margin: 11px 0 0 0;
+} 
+.fondo-vid{
+background: #ea5151;
+} 
+.personalizado2{
+  width: 55%;
+  text-align: center;
+} 
 /**********mobile**/
 @media screen and (min-width: 414px) and (max-width: 768px){
 .flecha img {
