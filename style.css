@@ -214,7 +214,7 @@ padding:23px 0 0 0;
 /* HEADER CENTER */
 .navbar_center{
 float:left;
-width:46%;
+width:100%;
 padding:0;
 text-align:center;
 }
@@ -236,7 +236,7 @@ width:70px;
 height:70px;
 text-align:center;
 padding:0;
-background-color:#f9f301;
+background-color:#ea5151;
 }
 .navbar_right img{
 display:inline-block;
@@ -244,7 +244,7 @@ max-width:40%;
 padding:20px 0 0 0;
 }
 .whitebg{
-background-color:#ffffff;
+background-color:#ea5151;
 }
 .graybg{
 background-color:#f7f7f7;
@@ -746,8 +746,8 @@ color:#ffffff;
 font-size:16px;
 }
 .swiper-container > .swiper-pagination {
-bottom: 5%;
-left: 36%;
+bottom: 15%;
+left: 30%;
 width: 95%;
 }
 .slidertoolbar > .swiper-pagination {
@@ -763,6 +763,8 @@ width: 95%;
 .swiper-container .swiper-pagination-bullet-active {
 opacity: 1;
 background: #fff;
+width: 17px;
+height: 17px !important;
 }
 .swiper-container-pages .swiper-pagination-bullet-active {
 opacity: 1;
@@ -2176,6 +2178,41 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.text-inter2 {
+    font-size: 2.4em;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.text-inter2 span{
+	color: #06ecff;
+	text-align: center;
+}
+.position-imagen{
+	position:absolute;
+	left: 36%;
+	top: 27%;
+}
+.position-imagen2 {
+    position: absolute;
+    left: 17%;
+    top: 15%;
+}
+.swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 10px !important;
+}
+.nombre-logo{
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px !important;
+}
+.num{
+	text-align:center; font-family: 'Lato', sans-serif;
+	font-weight:bold;
+	position: relative;
+	top: 85px;
+}
 .text-elegir{
 	font-size: 1.2em;
 	text-align: center;
@@ -2458,6 +2495,7 @@ height: 100%;
 /* 5.1 TOP NAVIGATION AND HEADER */
 .navbarpages{
 height:50px;
+background: #ea5151;
 }
 .logo_text{
 font-size:22px;
@@ -2476,7 +2514,7 @@ width:55px;
 height:50px;
 }
 .navbar_right img{
-max-width:40%;
+max-width:60%;
 padding:12px 0 0 0;
 }
 #pages_maincontent{
