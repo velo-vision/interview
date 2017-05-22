@@ -2791,6 +2791,62 @@ padding:0px 3px;
   text-align: center;
 }
 
+/*lista de empresas*/
+.centrado-text{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #b7b7b7;
+  padding-top: 30px;
+  font-size: 15px;
+
+}
+.borde-logos{
+  border-top: solid 1px #dbdbdb;
+  border-bottom: solid 1px #dbdbdb;
+  width: 100%;
+}
+
+.formato-img{
+  width: 60px;
+  height: 60px;
+  padding: 13px 0 13px 17px;
+}
+
+
+/*menu*/
+.menuapp{
+  float: left;
+}
+.color-menu{
+  background: #4a5266;
+  height: 50px;
+}
+.menu-rayas{
+  background: #4a5266;
+}
+
+.log-m2 img{
+  width: 36px;
+  height: 31px;
+}
+
+.texto-log p{
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  font-weight: 900;
+  padding-top: 15px;
+  font-size: 15px;
+}
+.texto-log span{
+  color:#06ecff;
+}
+.personalizado{
+  width: 22%;
+}
+.fondocampana{
+  background: #4a5266;
+}
 /**********mobile**/
 @media screen and (min-width: 414px) and (max-width: 768px){
 .flecha img {
