@@ -2924,6 +2924,81 @@ padding:0px 3px;
 }
 .fondocampana{
   background: #4a5266;
+  text-align: left;
+}
+.campanita{
+  position: absolute; 
+  z-index: 1; 
+  height: 19px;
+}
+.noti{
+  position: relative; 
+  z-index: 2; 
+  text-align: center;
+  background: #ff5252;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 41%;
+  left: -29%;
+}
+.noti p{
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+
+/*configuracion*/
+.fondo7{
+  background: #ea5151;
+}
+.titulo-conf{
+  text-transform: uppercase;
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 22px;
+}
+.congfig-img{
+  border-radius: 50%;
+  margin-top: 20px; 
+  border:solid 2px #c5b2a5;
+
+}
+.contetn-op{
+  background: #fff;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.E{
+  font-family: 'Lato', sans-serif;
+  color: #ea5151;
+  font-size: 15px;
+  font-weight: 800;
+  background: transparent;
+  padding: 0 0 32px 0!important;
+  height: 30px;
+  margin: 7px 0 0 0;
+  text-align: center;
+}
+.configp{
+  padding: 0px !important;
+  height: 40px;
+}
+.imgconf{
+  margin: 18% 0 0 44%;
+}
+.linea{
+  background: #ea5151; 
+  height: 25px; 
+  width: 3px;
+  margin-top: 7px;
+  margin-left: 16px;
 }
 /**********mobile**/
 @media screen and (min-width: 414px) and (max-width: 768px){
