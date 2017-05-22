@@ -2178,6 +2178,13 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.navbarpages2 {
+    height: 50px;
+    background: #ff5252;
+}
+.colorred{
+ background: #ff5252; 
+}
 p {
     padding: 0px;
     margin: 0px;
