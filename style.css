@@ -3202,6 +3202,81 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 .form5 li .item-inner .item-title span{
   color:#a3e7ef;
 }
+
+.azul-empresa{
+ background: #03a7b5;
+}
+
+.letra-azul{
+  color:#03a7b5;
+  font-weight: 600
+}
+
+.letra-azul p{
+  padding: 8px 8px 7px 0 !important;
+}
+.img2bus{
+    width: 22px;
+    margin: 18% 0 0 53%;
+}
+.img3fut{
+  width: 21px;
+  margin: 14% 0 0 48%;
+}
+
+
+
+
+.semi-circulo{
+  position: absolute;
+  z-index: 1;
+}
+
+.img-posicion{
+  z-index: 2;
+  position: relative;
+  margin-top: 12%;
+}
+
+.felicidades{
+  margin-top: 12%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.9em;
+  color:#585858;
+}
+.parrafo-fe{
+  margin-top: 4%;
+  font-family: 'Lato', sans-serif;
+  color:#585858;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: center;
+}
+.parrafo-fe span{
+  color: #eb6262;
+}
+
+.btnfelicidades{
+  background: #ff5252;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3em;
+  color:#fff;
+  padding-top: 11px;
+  border-radius: 11px;
+  height: 46px;
+}
+.aumento-m{
+  margin: 17% 0;
+}
+
+.color-azulbtn{
+  background:#00cedf;
+}
+
 /**********mobile**/
 /*@media screen and (min-width: 414px) and (max-width: 768px){
 .flecha img {
