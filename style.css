@@ -2254,7 +2254,7 @@ p {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 33%;
+	margin-top: 34%;
 }
 .text-inter2 {
     font-size: 2.4em;
@@ -2828,6 +2828,7 @@ padding:0px 3px;
 .margin-tres{
   margin: 3% 0;
 }
+
 /*perfil a emprezar*/
 
 .fondoRojo{
@@ -2852,7 +2853,7 @@ padding:0px 3px;
   text-align: center;
 }
 .flecha img{
-	margin: 11% 47% 0;
+	padding-top: 10%;
 }
 .nombreUsu p{
 	padding: 13% 0px 10px 0 !important;
@@ -3047,8 +3048,91 @@ background: #ea5151;
   width: 55%;
   text-align: center;
 } 
+/*fomulario*/
+.empresa-fom{
+  font-weight: 500 !important;
+}
+.square2 label{
+  border:solid 2px #00cedf !important;
+}
+.botonE{
+  background: #00cedf !important;
+}
+
+.btn-sig{
+  text-align: center;
+  background: #00cedf !important;
+  border-radius: 5px;
+  height: 33px;
+  padding-top: 8px;
+}
+
+.btn2sig{
+  color:#fff !important;
+  font-weight: 600 !important;
+}
+.texto-log-form4{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 13px;
+  color:#b7b7b7;
+}
+
+.opciones li{
+  display: inline-block;
+}
+.size-img-log{
+  /*width: 50px;*/
+  height: 31px;
+}
+label.label-checkbox i.icon-form-checkbox {
+  margin-bottom: 21px;
+}
+.colorAz{
+  background: transparent;
+}
+label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-checkbox, label.label-checkbox input[type="radio"]:checked + .item-media i.icon-form-checkbox {
+    border: none;
+    background-color: #00cedf;
+}
+.pay{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color:#b7b7b7;
+  padding-top: 12px;
+}
+
+
+/*form5*/
+
+.form5 li{
+  border-top: solid 1px #dbdbdb;
+  border-bottom: solid 1px #dbdbdb;
+}
+
+
+.form5 li label.label-checkbox i.icon-form-checkbox {
+    margin-bottom: 2px;
+} 
+
+.aling .contactform .item-content {
+    padding: 17px 0 17px 0;
+    margin: 0 0  0 12%;
+    width: 83%;
+    color:#b7b7b7;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+.form5 li .item-inner{
+  width: 82%;
+}
+
+.form5 li .item-inner .item-title span{
+  color:#a3e7ef;
+}
 /**********mobile**/
-@media screen and (min-width: 414px) and (max-width: 768px){
+/*@media screen and (min-width: 414px) and (max-width: 768px){
 .flecha img {
    margin: 22% 47% 0 !important;
 }
@@ -3067,5 +3151,5 @@ background: #ea5151;
 }
 }
 /*small mobile*/
-@media screen and (max-width: 470px) {
-}
+/*@media screen and (max-width: 470px) {
+}*/
