@@ -2767,7 +2767,7 @@ padding:0px 3px;
 .fondo2{
   background: url("images/app/fondo2.jpg") no-repeat center center;
   background-size: 123%;
-  height: 250px;
+  height: 240px;
 }
 .fondo3{
   background: url("images/perfil/fondo-perfil.png") no-repeat center center;
@@ -2787,7 +2787,7 @@ padding:0px 3px;
 .fondo-azul{
   background: url("images/app/azul.png") no-repeat center center;
   background-size: 123%;
-  height: 250px;
+  height: 240px;
 }
 .imgsession {
     width: 100%;
@@ -2904,6 +2904,7 @@ padding:0px 3px;
   text-align: center;
   color:#2fb8cb;
   font-size: 13px;
+  font-weight: 500;
 }
 
 .margin-no{
@@ -2979,14 +2980,13 @@ padding:0px 3px;
 }
 
 /*lista de empresas*/
-.centrado-text{
+.centrado-text {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   color: #b7b7b7;
   padding-top: 30px;
-  font-size: 15px;
-
+  font-size: 14px;
 }
 .borde-logos{
   border-top: solid 1px #dbdbdb;
@@ -3100,7 +3100,7 @@ padding:0px 3px;
   height: 40px;
 }
 .imgconf{
-  margin: 18% 0 0 44%;
+  margin: 18% 0 0 50%;
 }
 .linea{
   background: #ea5151;
@@ -3160,26 +3160,27 @@ background: #ea5151;
   background: #00cedf !important;
 }
 
-.btn-sig{
-  text-align: center;
-  background: #00cedf !important;
-  border-radius: 5px;
-  height: 33px;
-  padding-top: 8px;
+.btn-sig {
+    text-align: center;
+    background: #00cedf !important;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 16px;
+    padding-top: 12px;
 }
 
 .btn2sig{
   color:#fff !important;
   font-weight: 600 !important;
 }
-.texto-log-form4{
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 13px;
-  color:#b7b7b7;
+.texto-log-form4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    color: #b7b7b7;
 }
-
 .opciones li{
   display: inline-block;
 }
@@ -3209,7 +3210,6 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 
 .form5 li{
   border-top: solid 1px #dbdbdb;
-  border-bottom: solid 1px #dbdbdb;
 }
 
 
@@ -3227,10 +3227,12 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 .form5 li .item-inner{
   width: 82%;
+	margin-left: 5px;
 }
 
 .form5 li .item-inner .item-title span{
   color:#a3e7ef;
+	font-size: 13px;
 }
 
 .azul-empresa{
@@ -3243,15 +3245,18 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .letra-azul p{
-  padding: 8px 8px 7px 0 !important;
+  padding: 3px 8px 6px 0 !important;
 }
 .img2bus{
     width: 22px;
-    margin: 18% 0 0 53%;
+    margin: 23% 0 0 78%;
 }
 .img3fut{
   width: 21px;
   margin: 14% 0 0 48%;
+}
+.definir a p{
+	padding-top: 9px !important;
 }
 
 
@@ -3273,7 +3278,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-weight: 500;
-  font-size: 1.9em;
+  font-size: 1.8em;
   color:#585858;
 }
 .parrafo-fe{
@@ -3300,7 +3305,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   height: 46px;
 }
 .aumento-m{
-  margin: 17% 0;
+  margin: 16% 0;
 }
 
 .color-azulbtn{
