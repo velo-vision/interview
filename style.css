@@ -337,10 +337,10 @@ transition-duration: 400ms;
 color:#222222;
 }
 .panel-left, .pagepanel{
-background-color:#f9f301;
+background-color:#09e6f9;
 }
 .panel-right{
-background-color:#f9f301;
+background-color:#09e6f9;
 }
 
 /* 6-1. USER ACCOUNT SIDEBAR RIGHT */
@@ -410,7 +410,7 @@ padding:5px 0 10px 0;
 margin:0 0 0 5%;
 display:inline-block;
 text-align:center;
-border-bottom:1px #dcd722 solid;
+border-bottom:1px #000 solid;
 }
 .user-nav ul li img{
 display:inline-block;
