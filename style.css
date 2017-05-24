@@ -3312,25 +3312,25 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   background:#00cedf;
 }
 
-/**********mobile**/
-/*@media screen and (min-width: 414px) and (max-width: 768px){
-.flecha img {
-   margin: 22% 47% 0 !important;
+
+/*becario*/
+.notasBec{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+.notasBec p{
+  line-height: 12px;
 }
 
+.img-bec{
+  float: right;
 }
-
-@media screen and (max-width: 680px) {
-  .flecha img {
-    margin: 18% 47% 0 ;
+.texto-bec p{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color:#585858;
+  font-weight: 500;
 }
-}
-
-@media screen and (max-width: 568px) {
-  .flecha img {
-    margin: 16% 47% 0;
-}
-}
-/*small mobile*/
-/*@media screen and (max-width: 470px) {
-}*/
