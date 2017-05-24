@@ -82,7 +82,7 @@ margin:0px;
 line-height:20px;
 }
 blockquote{
-background:#f9f301;
+background:transparent;
 padding:20px;
 margin:0 0 20px 0;
 font-size:22px;
@@ -2178,6 +2178,80 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+/*CHAT*/
+body {
+  background: white;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+blockquote {
+  margin: 0 auto;
+  max-width: 320px;
+}
+p {
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #e5e5ea;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+p.them {
+  float: left;
+}
+p.them::after {
+  content: "";
+  position: absolute;
+  left: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-right: 0.5em solid #e5e5ea;
+  border-bottom-right-radius: 1em 0.5em;
+}
+p.me {
+  float: right;
+  background-color: #1289fe;
+  color: white;
+}
+p.me::after {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-left: 0.5em solid #1289fe;
+  border-bottom-left-radius: 1em 0.5em;
+}
+/*FIN CHAT*/
+.fondo-chat {
+    background: url(images/chat/fondo-chat.jpg) no-repeat center center;
+    background-size: 123%;
+    height: 487px;
+}
+.textarea-team textarea{
+	width: 99%;
+	height: 60px;
+}
+.icon-beca i{
+	font-size: 20px;
+	margin-right: 15px;
+}
+.icon-beca1 i{
+	font-size: 20px;
+	margin-right: 20px;
+}
+.beca-margin{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.beca-margin1{
+	margin-bottom: 20px;
+}
+.beca-margin2{
+	margin-bottom: 20px;
+}
 .btn-rojo img{
 	position: relative;
 	top: 30px;
@@ -2353,6 +2427,13 @@ p {
     margin: 0px auto;
     padding: 9px 0;
 }
+.linea3 {
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    width: 138px !important;
+    margin: 0px auto;
+    padding: 9px 0;
+}
 .swiper-pagination-bullet {
     width: 12px;
     height: 12px !important;
@@ -2406,6 +2487,19 @@ text-align: center;
 		background: #ea5151;
     height: 4em;
 		color: #f3a4a4;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+}
+.contactform select.form_select4 {
+    padding: 3%;
+    width: 100%;
+		font-size: 12px;
+    margin: 0 0 5px 0;
+    border: 2px solid #00cedf;
+		background: #06ecff;
+    height: 4em;
+		color: #fff;
 		text-transform: uppercase;
 		font-family: 'Lato', sans-serif;
 		font-weight: 600;
@@ -2631,6 +2725,14 @@ height: 100%;
 height:50px;
 background: #ea5151;
 }
+.navbarpages-verde{
+height:50px;
+background: #018792;
+}
+.navbarpages-gris {
+    height: 50px;
+    background: #4a5266;
+}
 .navbarpages23{
 height:50px;
 background: #ff5454;
@@ -2647,6 +2749,9 @@ padding:17px 0 0 0;
 margin:20% auto 0 auto;
 }
 /* HEADER RIGHT */
+.color-verde{
+	background: #018792;
+}
 .navbar_right{
 width:55px;
 height:50px;
@@ -2988,6 +3093,22 @@ padding:0px 3px;
   padding-top: 30px;
   font-size: 14px;
 }
+.centrado-text1 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #b7b7b7;
+  padding-top: 10px;
+  font-size: 13px;
+}
+.centrado-text1 span{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #000;
+  padding-top: 10px;
+  font-size: 18px;
+}
 .borde-logos{
   border-top: solid 1px #dbdbdb;
   border-bottom: solid 1px #dbdbdb;
@@ -2999,8 +3120,9 @@ padding:0px 3px;
   height: 60px;
   padding: 13px 0 13px 17px;
 }
-
-
+.formato-img1 {
+    padding: 13px 0 10px 25px;
+}
 /*menu*/
 .menuapp{
   float: left;
@@ -3274,7 +3396,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .felicidades{
-  margin-top: 12%;
+	margin-top: 9%;
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-weight: 500;
@@ -3314,11 +3436,14 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 
 
 /*becario*/
-.notasBec{
+.notasBec {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 10px;
+  text-transform: uppercase;
   font-weight: 500;
+	margin-top: 15px;
+
 }
 .notasBec p{
   line-height: 12px;
