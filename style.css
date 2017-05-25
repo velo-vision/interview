@@ -3534,3 +3534,29 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
     background: #f7f7f7 ;
     color:#a6a6a6 ;
 }
+
+
+.lineaatravezada{
+  height: 2px;
+  width: 80px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  bottom: 20%;
+  left: 37%;
+}
+.lineaatravezada2{
+  height: 2px;
+  width: 125px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  bottom: 20%;
+  left: 37%;
+}
+
+.swiper-container > .swiper-pagination .swiper-pagination-bullet-active{
+    bottom: 17.5%;
+    left: 35%;
+    margin: -3px 5px !important;
+}
