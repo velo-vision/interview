@@ -2179,6 +2179,21 @@ color:#222222;
 }
 /*style jorge************************************/
 /*CHAT*/
+.toolbar:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    height: 1px;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
 .navbar-inner, .toolbar-inner {
     position: absolute;
     left: 0;
@@ -2880,7 +2895,7 @@ padding:0px 3px;
   height: 487px;
 }
 .fondo5{
-  background: url("images/perfil/fondo-verde.png") no-repeat center center;
+  background: url("images/perfil/fondo-verde1.png") no-repeat center center;
   background-size: 123%;
   height: 487px;
 }
@@ -3187,7 +3202,7 @@ padding:0px 3px;
   font-weight: 900;
   font-size: 30px;
   text-align: center;
-  padding-top: 22px;
+  padding-top: 35px;
 }
 .congfig-img{
   border-radius: 50%;
@@ -3197,6 +3212,11 @@ padding:0px 3px;
 }
 .contetn-op{
   background: #fff;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.contetn-op1{
+  background: #03a7b5;
   border-radius: 12px;
   margin: 20px 0;
 }
@@ -3258,6 +3278,14 @@ padding:0px 3px;
 .parvid{
   text-align: center;
   margin: 11px 0 0 0;
+}
+.parvid i{
+	font-size: 22px;
+  padding: 0 20px;
+}
+.parvid1 i {
+    font-size: 22px;
+    padding: 0 20px 0 0;
 }
 .fondo-vid{
 background: #ea5151;
@@ -3353,11 +3381,15 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .azul-empresa{
- background: #03a7b5;
+ background: #fff;
+}
+.azul-empresa1{
+	background-image:url(images/perfil/fondo.png);
+  background-size: 100%;
 }
 
 .letra-azul{
-  color:#03a7b5;
+  color:#fff;
   font-weight: 600
 }
 
@@ -3387,7 +3419,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 .img-posicion{
   z-index: 2;
   position: relative;
-  margin-top: 12%;
+  margin-top: 22%;
 }
 
 .felicidades{
