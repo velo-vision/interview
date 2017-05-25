@@ -2221,6 +2221,7 @@ color:#222222;
 .textarea-team textarea{
 	width: 99%;
 	height: 60px;
+  resize: none;
 }
 .icon-beca i{
 	font-size: 20px;
