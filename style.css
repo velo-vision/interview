@@ -2179,50 +2179,38 @@ color:#222222;
 }
 /*style jorge************************************/
 /*CHAT*/
-body {
-  background: white;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+.navbar-inner, .toolbar-inner {
+    position: absolute;
+    left: 0;
+    background: #f7f7f7;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    padding: 0 8px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
-blockquote {
-  margin: 0 auto;
-  max-width: 320px;
+.toolbar.toolbar-hidden, .tabbar.toolbar-hidden, .toolbar.tabbar-hidden, .tabbar.tabbar-hidden {
+    -webkit-transition-duration: none !important;
+     transition-duration:none !important;
+     -webkit-transform: none !important;
+     transform: none !important;
 }
-p {
-  margin: 0 0 0.5em;
-  border-radius: 1em;
-  padding: 0.5em 1em;
-  background: #e5e5ea;
-  max-width: 75%;
-  clear: both;
-  position: relative;
-}
-p.them {
-  float: left;
-}
-p.them::after {
-  content: "";
-  position: absolute;
-  left: -0.5em;
-  bottom: 0;
-  width: 0.5em;
-  height: 1em;
-  border-right: 0.5em solid #e5e5ea;
-  border-bottom-right-radius: 1em 0.5em;
-}
-p.me {
-  float: right;
-  background-color: #1289fe;
-  color: white;
-}
-p.me::after {
-  content: "";
-  position: absolute;
-  right: -0.5em;
-  bottom: 0;
-  width: 0.5em;
-  height: 1em;
-  border-left: 0.5em solid #1289fe;
-  border-bottom-left-radius: 1em 0.5em;
+
+.navbar, .toolbar, .subnavbar {
+  background: transparent;
 }
 /*FIN CHAT*/
 .fondo-chat {
