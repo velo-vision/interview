@@ -2179,6 +2179,10 @@ color:#222222;
 }
 /*style jorge************************************/
 /*CHAT*/
+.burbuja-img {
+    width: 55%;
+    margin-top: 35px;
+}
 .toolbar:before {
     content: '';
     position: absolute;
@@ -3212,6 +3216,13 @@ padding:0px 3px;
   padding-top: 30px;
   font-size: 14px;
 }
+.centrado-text2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #b7b7b7;
+    padding: 30px 0 15px 0;
+    font-size: 14px;
+}
 .centrado-text1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -3233,11 +3244,21 @@ padding:0px 3px;
   border-bottom: solid 1px #dbdbdb;
   width: 100%;
 }
+.borde-logos1 {
+    /* border-top: solid 1px #dbdbdb; */
+    border-bottom: solid 1px #dbdbdb;
+    width: 100%;
+}
 
 .formato-img{
   width: 60px;
   height: 60px;
   padding: 13px 0 13px 17px;
+}
+.formato-img2 {
+    width: 60px;
+    height: 60px;
+    padding: 20px 0 13px 30px;
 }
 .formato-img1 {
     padding: 13px 0 10px 25px;
@@ -3333,7 +3354,7 @@ padding:0px 3px;
 .E{
   font-family: 'Lato', sans-serif;
   color: #ea5151;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 800;
   background: transparent;
   padding: 0 0 32px 0!important;
@@ -3344,7 +3365,7 @@ padding:0px 3px;
 .E1 {
     font-family: 'Lato', sans-serif;
     color: #ea5151;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 800;
     background: transparent;
     padding: 0 0 32px 0!important;
