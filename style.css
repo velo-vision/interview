@@ -2736,7 +2736,7 @@ height: 100%;
 }
 /* 5.1 TOP NAVIGATION AND HEADER */
 .navbarpages{
-height:50px;
+height:51px;
 background: #ea5151;
 }
 .navbarpages-verde{
@@ -2927,7 +2927,7 @@ padding:0px 3px;
 }
 }
 
-@media only screen and (min-width:430px) and (max-width: 600px){
+@media only screen and (min-width:430px) and (max-width: 668px){
 	.imgPrincipal {
 	    width: 83% !important;
 	    padding: 0% 0% !important;
