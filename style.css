@@ -3708,11 +3708,12 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   background: #00b4c0;
   border-radius: 50%;
   color: #fff !important;
-  margin: auto;
-  padding: 5px 0 0 10px;
+  margin: 25px 21px 0 0;
+  padding: 5px;
   height: 30px;
   width: 30px !important;
   font-size: 15px;
+  text-align: center;
 }
 
 .linea-sombra{
@@ -3726,5 +3727,30 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .rojo{
-  background: #ff5252;
+  background: #ff5252 !important;
+}
+
+.campanafija{
+  position: fixed;
+  z-index: 1;
+  bottom: 10px;
+  right: 6%;
+}
+.campanafija2{
+  position: fixed;
+  z-index: 2;
+  bottom: 31px;
+  right: 10%;
+}
+
+.numeroNoti{
+  background: #00b4c0;
+  border-radius: 50%;
+  color: #fff !important;
+  margin: auto;
+  padding: 0px 4px 8px 4px;
+  height: 12px;
+  width: 12px !important;
+  font-size: 15px;
+  text-align: center;
 }
