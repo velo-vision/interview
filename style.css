@@ -3775,3 +3775,12 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   font-size: 15px;
   text-align: center;
 }
+
+.centrado-text a {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #b7b7b7;
+    padding-top: 30px;
+    font-size: 14px;
+}
