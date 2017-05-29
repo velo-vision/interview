@@ -2178,6 +2178,33 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.comentario-burbuja {
+	margin-top: 30px;
+}
+.comentario-burbuja span {
+  z-index: 9999;
+  position: relative;
+  left: 14px;
+  font-size: 15px;
+  top: 6px;
+  color: #fff;
+}
+.comentario-burbuja i{
+	font-size: 35px;
+	color: #00d5e8;
+	position: absolute;
+	z-index: 1;
+}
+.comentario-burbuja i{
+	font-size: 35px;
+	color: #ff5252;
+	position: absolute;
+	z-index: 1;
+}
+.style-look{
+	text-transform:uppercase;
+	font-size:.9em;
+}
 /*CHAT*/
 .burbuja-img {
     width: 55%;
@@ -3409,6 +3436,11 @@ padding:0px 3px;
   background: #ea5151;
   color:#fff;
 }
+.opciones-empresa {
+    border-radius: 8px;
+    background: #00d5e8;
+    color: #fff;
+}
 .sep-vide{
   padding-top: 40px
 }
@@ -3427,6 +3459,22 @@ padding:0px 3px;
 .parvid1 i {
     font-size: 22px;
     padding: 0 20px 0 0;
+}
+.parvid2{
+  text-align: center;
+  margin: 11px 0 0 0;
+}
+.parvid2 i {
+    font-size: 22px;
+    padding: 0px 10px;
+}
+.parvid2 img {
+    padding: 0px 10px;
+    display: inline !important;
+}
+.parvid3 i{
+	font-size: 25px;
+  padding: 0 23px;
 }
 .fondo-vid{
 background: #ea5151;
