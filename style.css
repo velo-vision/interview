@@ -3825,10 +3825,46 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .centrado-text a {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #b7b7b7;
-    padding-top: 30px;
-    font-size: 14px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #b7b7b7;
+  padding-top: 30px;
+  font-size: 14px;
+}
+/*vacante*/
+.descipcion-vacante{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color:#a6a6a6;
+  text-align: center;
+}
+.escuela{
+  font-weight: 500;
+  font-size: 18px;
+  color:#838383;
+}
+
+.btn{
+  background: #00d5e8;
+  border-radius: 5px;
+  color: #fff;
+  padding: 11px;
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn a{
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+.separacion-vacantes{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.verVideoV{
+  margin-bottom: 28px;
+  width: 100%;
 }
