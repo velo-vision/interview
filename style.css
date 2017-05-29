@@ -3820,3 +3820,12 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   margin-bottom: 28px;
   width: 100%; 
 }
+
+/*chat empresa*/
+.enviado-Emp{
+  background: #ff6e6e;
+}
+
+.recibido-Emp{
+  background: #00cedf;
+}
