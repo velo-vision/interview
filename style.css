@@ -2913,7 +2913,10 @@ padding:0px 3px;
 }
 }
 /*Querys aplicacion iphone 7*/
-@media only screen and (min-width:370px) and (max-width: 420px){
+@media only screen and (min-width:320px) and (max-width: 420px){
+  .row.no-gutter .col-80 {
+    width: 72% !important;
+}
 	.imgPrincipal {
     padding: 65% 0% !important;
 }
@@ -3932,4 +3935,56 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 
 .azul-chat i{
 color: #06c1d0;
+}
+
+/*FORM2*/
+.img-form2{
+  width: 50px;
+}
+
+.corazon{
+  font-size: 25px;
+  padding: 10px 0 10px 30px;
+}
+
+.size-img-slider{
+  width: 96px;
+}
+
+.menu-size{
+  font-size: 40px;
+  color: #fff;
+  padding: 10%;
+}
+.img-interview{
+  margin: 0 0 0 50%;
+  width: 35px;
+}
+
+.img-interview{
+  margin: 0% 0 0 44%;
+  width: 37px;
+}
+.img-interview3{
+  margin: 0% 0 0 36%;
+  width: 37px;
+}
+
+.notificacionUsuario {
+  width: 20px;
+  height: 20px;
+  background: #ff5252;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  top: 26px;
+  right: 46px;
+  font-weight: 400;
+}
+.campana-noti{
+  width: 30px;
+  position: relative;
+  z-index: 1;
 }
