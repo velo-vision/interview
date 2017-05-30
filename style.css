@@ -2447,7 +2447,7 @@ p {
 }
 .position-imagen{
 	position:absolute;
-	left: 36%;
+	left: 31%;
 	top: 19%;
 }
 .position-imagen2 {
@@ -2933,7 +2933,7 @@ padding:0px 3px;
     bottom: 19.8% !important;
 }
 .position-imagen {
-    top: 28% !important;
+    top: 20% !important;
 }
 .texto-seleccion {
     margin-top: 38% !important;
@@ -3948,7 +3948,10 @@ color: #06c1d0;
 }
 
 .size-img-slider{
-  width: 96px;
+  width: 50%;
+}
+.size-img-slider1 {
+    width: 80%;
 }
 
 .menu-size{
