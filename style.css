@@ -337,10 +337,10 @@ transition-duration: 400ms;
 color:#222222;
 }
 .panel-left, .pagepanel{
-background-color:#09e6f9;
+background-color:#fff;
 }
 .panel-right{
-background-color:#09e6f9;
+background-color:#fff;
 }
 
 /* 6-1. USER ACCOUNT SIDEBAR RIGHT */
@@ -3414,6 +3414,13 @@ padding:0px 3px;
   margin-top: 7px;
   margin-left: 16px;
 }
+.linea1{
+  background: #ea5151;
+  height: 25px;
+  width: 3px;
+  margin-top: 0px;
+  margin-left: 16px;
+}
 
 /*video*/
 .video-view{
@@ -3585,9 +3592,9 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 .letra-azul p{
   padding: 3px 8px 6px 0 !important;
 }
-.img2bus{
+.img2bus {
     width: 22px;
-    margin: 23% 0 0 78%;
+    margin: 5% 0 0 56%;
 }
 .img3fut{
   width: 21px;
@@ -3855,7 +3862,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   text-align: center;
   text-transform: uppercase;
 }
-.btn a{
+.btn {
   font-size: 17px;
   color: #fff;
   font-weight: 500;
@@ -3878,3 +3885,37 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
   background: #00cedf;
 }
 
+/*terminar */
+.terminar{
+  text-align: center;
+  background: #ea5151;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 5px; 
+}
+.terminar1 {
+    text-align: center;
+    background: #28bf9c;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    height: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.terminar a{
+  color: #fff;
+}
+
+.anchocompleto{
+  width: 100%;
+}
+
+.azul-chat i{
+color: #06c1d0;
+}
