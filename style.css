@@ -2178,6 +2178,21 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.icon-empresa i{
+  font-size: 20px;
+  margin-left: 28px;
+}
+.menu-icons i {
+  color: #4a5266;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.menu-gris i{
+	font-size:38px !important;
+	margin-top:5px !important;
+	color:#ebebeb !important;
+}
 .comentario-burbuja {
 	margin-top: 30px;
 }
@@ -2433,7 +2448,7 @@ p {
 }
 .position-imagen{
 	position:absolute;
-	left: 36%;
+	left: 31%;
 	top: 19%;
 }
 .position-imagen2 {
@@ -2919,7 +2934,7 @@ padding:0px 3px;
     bottom: 19.8% !important;
 }
 .position-imagen {
-    top: 22% !important;
+    top: 20% !important;
 }
 .texto-seleccion {
     margin-top: 38% !important;
@@ -3408,7 +3423,7 @@ padding:0px 3px;
   height: 40px;
 }
 .imgconf{
-  margin: 18% 0 0 50%;
+	margin: 6% 0 0 50%;
 }
 .linea{
   background: #ea5151;
@@ -3601,7 +3616,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 .img3fut{
   width: 21px;
-  margin: 14% 0 0 48%;
+  margin: 5% 0 0 59%;
 }
 .definir a p{
 	padding-top: 9px !important;
@@ -3876,7 +3891,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 .verVideoV{
   margin-bottom: 28px;
-  width: 100%; 
+  width: 100%;
 }
 
 /*chat empresa*/
@@ -3891,18 +3906,18 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 /*terminar */
 .terminar{
   text-align: center;
-  background: #ea5151;
+  background: #b04444;
   color: #fff;
   font-size: 17px;
   border-radius: 5px;
   height: 35px;
   font-weight: 400;
   text-transform: uppercase;
-  padding-top: 5px; 
+  padding-top: 5px;
 }
 .terminar1 {
     text-align: center;
-    background: #28bf9c;
+    background: #00cedf;
     color: #fff;
     font-size: 17px;
     border-radius: 5px;
@@ -3934,7 +3949,10 @@ color: #06c1d0;
 }
 
 .size-img-slider{
-  width: 96px;
+  width: 50%;
+}
+.size-img-slider1 {
+    width: 80%;
 }
 
 .menu-size{
