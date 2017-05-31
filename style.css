@@ -1,7 +1,7 @@
 /*==============================================
 [Main stylesheet style.css]
 
-Author:	SINDEVO.COM - Smart Interface Development
+Author:	Esteban Gárcia Sánchez, Jorge Flores
 Version:	1.0
 Created:	05 May 2016
 Last updated:	05 May 2016
@@ -3991,4 +3991,59 @@ color: #06c1d0;
   width: 30px;
   position: relative;
   z-index: 1;
+}
+
+/*editar empresa*/
+.editarEmp input[type="text"], input[type="password"]{
+  color: #b7b7b7;
+}
+.color-btn-editar{
+  color: #fff !important;
+  background: #00cedf !important;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.azul-atras{
+  background: #00cedf;
+}
+.separacion-editar-empresa{
+  margin: 14px 0px;
+}
+
+.fondo-azul-preguntas{
+  background: url('images/app/fondo-preguntas.jpg') no-repeat center center;
+  background-size: 100%;
+  height: auto;
+}
+
+.titulo-questions{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color:#b7fbff;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 12px 0;
+}
+
+.esquina{
+  background: url('images/app/esquina.png') no-repeat left center;
+  background-size: 14px;
+  height: 65px;
+  padding-left: 21px;
+}
+
+.sin ul {
+    background: transparent;
+}
+
+.sinpadding{
+  padding: 0px !important;
+}
+
+.sin li{
+  background: #fff;
+  margin: 0 0 10% 10%;
+  width: 90%;
+  text-align: center;
 }
