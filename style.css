@@ -2180,6 +2180,7 @@ color:#222222;
 /*style jorge************************************/
 .icon-empresa i{
   font-size: 20px;
+  margin-left: 28px;
 }
 .menu-icons i {
   color: #4a5266;
@@ -3422,7 +3423,7 @@ padding:0px 3px;
   height: 40px;
 }
 .imgconf{
-  margin: 18% 0 0 50%;
+	margin: 6% 0 0 50%;
 }
 .linea{
   background: #ea5151;
@@ -3615,7 +3616,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 .img3fut{
   width: 21px;
-  margin: 14% 0 0 48%;
+  margin: 5% 0 0 59%;
 }
 .definir a p{
 	padding-top: 9px !important;
