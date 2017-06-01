@@ -746,7 +746,7 @@ color:#ffffff;
 font-size:16px;
 }
 .swiper-container > .swiper-pagination {
-bottom: 18%;
+bottom: 17%;
 left: 35%;
 width: 95%;
 }
@@ -2475,6 +2475,14 @@ p {
 	text-align: center;
 	text-transform: uppercase;
   font-weight: 700;
+  padding: 0 !important;
+}
+.text-elegir1 p{
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+  font-weight: 700;
+  padding: 3% !important;
 }
 .linea2 {
     height: 1px;
@@ -2538,7 +2546,7 @@ text-align: center;
     padding: 3%;
     width: 100%;
 		font-size: 12px;
-    margin: 0 0 5px 0;
+    margin: 0 0 4.5% 0;
     border: 2px solid #f39a9a;
 		background: #ea5151;
     height: 4em;
@@ -2931,10 +2939,10 @@ padding:0px 3px;
     top: 60px !important;
 }
 .lineaatravezada {
-    bottom: 19.8% !important;
+    bottom: 19% !important;
 }
 .position-imagen {
-    top: 20% !important;
+    top: 24% !important;
 }
 .texto-seleccion {
     margin-top: 38% !important;
@@ -2956,13 +2964,13 @@ padding:0px 3px;
     margin-bottom: 10px !important;
 }
 .lineaatravezada2 {
-    bottom: 19.7% !important;
+    bottom: 19% !important;
 }
 .slider-caption {
-    bottom: 21% !important ;
+    bottom: 16% !important ;
 }
 .num {
-    top: 100px !important;
+    top: 70px !important;
 }
 .inicioSesion p {
     margin: 6% 0 !important;
@@ -3952,7 +3960,7 @@ color: #06c1d0;
   width: 50%;
 }
 .size-img-slider1 {
-    width: 80%;
+    width: 50%;
 }
 
 .menu-size{
