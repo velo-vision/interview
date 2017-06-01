@@ -1692,20 +1692,20 @@ background-color:#f9f301;
 .list-block {
 margin:0px 0;
 }
-.list-block ul::before {
+/*.list-block ul::before {
 content: '';
 position: absolute;
 left: 0;
 top: 0;
 bottom: auto;
 right: auto;
-height: 1px;
+height: 0px;
 width: 100%;
 background-color: #fff;
 }
 .list-block ul::after {
 background-color: #fff;
-}
+}*/
 .list-block li{
 border-bottom:1px #f0f0f0 solid;
 margin:0;
@@ -4043,7 +4043,49 @@ color: #06c1d0;
 
 .sin li{
   background: #fff;
-  margin: 0 0 10% 10%;
+  margin: 0 0 5% 5%;
   width: 90%;
   text-align: center;
+}
+.list-block ul::before {
+  background-color: transparent; 
+}
+.texto p{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color:#585858;
+  padding: 10px 0 10px 14px !important;
+}
+
+.text-interno p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  color:#585858;
+  line-height: 15px;
+}
+
+.sin li {
+  border-bottom: 7px #f0f0f0 solid;
+}
+.sombras-preguntas{
+  box-shadow: 0px 7px 8px #dedede;
+  padding: 11px 5% 0px;
+}
+
+.sombras-preguntas p{
+  padding: 0 0 7px 0;
+}
+
+.list-block:not(.media-list) .accordion-item-expanded:not(.media-item) .accordion-item-toggle .item-inner, .list-block:not(.media-list) .accordion-item-expanded:not(.media-item) > .item-link .item-inner, .list-block.media-list .accordion-item-expanded .accordion-item-toggle .item-title-row, .list-block.media-list .accordion-item-expanded > .item-link .item-title-row, .list-block .accordion-item-expanded.media-item .accordion-item-toggle .item-title-row, .list-block .accordion-item-expanded.media-item > .item-link .item-title-row {
+ /* background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%2060%20120'%20xm…ranslate(115%2C%2030)%20rotate(90)'%20fill%3D'%23c7c7cc'%2F%3E%3C%2Fsvg%3E);*/
+  background-image: none;
+
+}
+
+.list-block .item-link .item-inner {
+  padding-right: 35px;
+  /*background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%2060%20120'%20xm…29.25-28.5-29.25-28.5%209.75-9.75z'%20fill%3D'%23c7c7cc'%2F%3E%3C%2Fsvg%3E);*/
+  background-image: none;
 }
