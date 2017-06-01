@@ -4038,11 +4038,13 @@ color: #06c1d0;
   background: url('images/app/esquina.png') no-repeat left center;
   background-size: 14px;
   height: 65px;
-  padding-left: 21px;
+  padding-left: 0px;
+	width: 100%;
 }
 
 .sin ul {
     background: transparent;
+		width: 100%;
 }
 
 .sinpadding{
@@ -4052,7 +4054,7 @@ color: #06c1d0;
 .sin li{
   background: #fff;
   margin: 0 0 5% 5%;
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 .list-block ul::before {
@@ -4063,7 +4065,14 @@ color: #06c1d0;
   font-weight: bold;
   font-size: 14px;
   color:#585858;
-  padding: 10px 0 10px 14px !important;
+  padding: 10px 20px !important;
+}
+.texto1 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #585858;
+    padding: 20px 20px !important;
 }
 
 .text-interno p{
