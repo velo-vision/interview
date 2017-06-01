@@ -2997,6 +2997,10 @@ padding:0px 3px;
 }
 
 @media only screen and (min-width:430px) and (max-width: 668px){
+	.btn-verde img {
+    top: 33px !important;
+    left: 27px !important;
+}
 	.felicidades {
     margin-top: 3% !important;
 }
