@@ -2933,7 +2933,7 @@ padding:0px 3px;
 	    height: 210px !important;
 	}
 	.fondo-azul {
-    height: 225px !important;
+    height: 215px !important;
 }
 .btn-rojo img {
     top: 60px !important;
@@ -4114,4 +4114,26 @@ color: #06c1d0;
 .chat-icono{
   width: 33px;
   margin: 22px 0px 22px 15px;
+}
+
+
+.square2 label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  background: transparent;
+  top: 5px;
+  left: 2px;
+  border: 2px solid #00cedf;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
