@@ -205,6 +205,13 @@ font-weight:900;
 }
 .logo_text a{
 color:#222222;
+font-size: 21px;
+text-transform: uppercase;
+}
+.back i{
+	font-size: 25px;
+	margin-right: 12px;
+	font-weight: 600;
 }
 .logo_image a img{
 display:inline-block;
@@ -2178,6 +2185,11 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.img-logo img{
+	position:absolute;
+	width: 58%;
+	top:33%
+}
 .icon-empresa i{
   font-size: 20px;
   margin-left: 28px;
@@ -2933,7 +2945,7 @@ padding:0px 3px;
 	    height: 210px !important;
 	}
 	.fondo-azul {
-    height: 225px !important;
+    height: 213px !important;
 }
 .btn-rojo img {
     top: 60px !important;
@@ -2981,6 +2993,24 @@ padding:0px 3px;
 }
 
 @media only screen and (min-width:430px) and (max-width: 668px){
+	.felicidades {
+    margin-top: 3% !important;
+}
+	.texto-seleccion {
+    margin-top: 20% !important;
+}
+	.titulo-conf {
+    color: #000 !important;
+}
+.img-logo img{
+	position:absolute;
+	width: 35%;
+	top:33%;
+	left:32%;
+}
+.azul-empresa1 {
+    background-image: none !important;
+}
 	.imgPrincipal {
 	    width: 83% !important;
 	    padding: 0% 0% !important;
