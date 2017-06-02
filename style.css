@@ -4137,3 +4137,8 @@ color: #06c1d0;
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+.configuracion-fondo{
+  background: url("images/app/fondo-configuracion.jpg") no-repeat;
+  background-size: 100%;
+}
