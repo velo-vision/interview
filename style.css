@@ -4181,13 +4181,14 @@ color: #06c1d0;
 
 
 .title-conf{
-  color: #f19ea1;  
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   padding: 4% 0 6%;
+	opacity: .8;
 }
 
 .opcionesconf {
@@ -4196,15 +4197,34 @@ color: #06c1d0;
   width: 100%;
 }
 
-.opcionesconf p{
+.opcionesconf p {
   font-size: 17px;
   font-weight: 300;
-  color: #e08d92;
+  color: #ffffff;
   padding: 6.5% 0;
+  opacity: .8;
 }
 
 .lineaconfig{
   width: 100%;
   height: 1px;
   background: #ee575c;
+	opacity: .4;
+}
+
+.popup{
+	background-color: #332727 !important;
+	margin-top: 100px !important;
+	height: 50% !important;
+	width: 90% !important;
+	border-radius: 10px !important;
+	margin-left: 5% !important;
+}
+.popup .content-block {
+    padding: 0px 5% !important;
+}
+.cambiar{
+width:100%;
+text-align:center;
+font-size:12px;
 }
