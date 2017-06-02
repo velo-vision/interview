@@ -4173,9 +4173,38 @@ color: #06c1d0;
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
+/*configuracion*/
 .configuracion-fondo{
   background: url("images/app/fondo-configuracion.jpg") no-repeat;
   background-size: 100%;
 }
 
+
+.title-conf{
+  color: #f19ea1;  
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4% 0 6%;
+}
+
+.opcionesconf {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.opcionesconf p{
+  font-size: 17px;
+  font-weight: 300;
+  color: #e08d92;
+  padding: 6.5% 0;
+}
+
+.lineaconfig{
+  width: 100%;
+  height: 1px;
+  background: #ee575c;
+}
