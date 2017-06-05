@@ -2185,7 +2185,25 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+/*Cambiar clase*/
+.tipo1 {
+	margin: 14px 0;
+	height: 83%;
+	background: #000;
+	border-radius: 15px;
+}
+.tipo2{
+  display: none;
+}
+/*fin*/
 /*popup*/
+.password23 input[type="password"] {
+    color: #b7b7b7;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 6% 0 6% 5%;
+}
 .popup-bg3{
 	margin: 14px 0;
 	height: 83%;
@@ -2198,10 +2216,11 @@ color:#222222;
 	background: #000;
 	border-radius: 15px;
 }
-.popup-bg{
-	margin: 19px 0;
-	background: #000;
-	border-radius: 15px;
+.popup-bg {
+  margin: 19px 0;
+  background: #000;
+  height: 80%;
+  border-radius: 15px;
 }
 .boton-salir{
 	text-align:center;
