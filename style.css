@@ -2378,7 +2378,8 @@ color:#222222;
 }
 .popup{
 	background-color: transparent !important;
-	margin-top: 100px !important;
+	/*margin-top: 100px !important;*/
+  margin-top: 19% !important;
 	height: 50% ;
 	width: 90% !important;
 	border-radius: 10px !important;
@@ -4426,7 +4427,7 @@ color: #06c1d0;
   background: #000;
   opacity: .9;
   border-radius:12px;
-  margin-top: 10%;
+  margin-top: 0%;
   padding: 5% 0;
 }
 
