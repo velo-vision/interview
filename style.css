@@ -2186,6 +2186,23 @@ color:#222222;
 }
 /*style jorge************************************/
 /*popup*/
+.popup-bg3{
+	margin: 14px 0;
+	height: 83%;
+	background: #000;
+	border-radius: 15px;
+}
+.popup-bg2{
+	margin: 14px 0;
+	height: 83%;
+	background: #000;
+	border-radius: 15px;
+}
+.popup-bg{
+	margin: 19px 0;
+	background: #000;
+	border-radius: 15px;
+}
 .boton-salir{
 	text-align:center;
 	margin-top: 5%;
@@ -2194,6 +2211,7 @@ color:#222222;
 .text-fin{
 	text-align:center;
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .text-eliminar{
 	color:#f33132;
@@ -2272,7 +2290,7 @@ color:#222222;
     font-size: 12px !important;
     font-weight: 700;
     text-align: center !important;
-    padding: 0 10px 20px 10px !important;
+    padding: 5% 10px 5% 10px !important;
     text-transform: uppercase;
     margin: 0px !important;
 }
@@ -2282,7 +2300,7 @@ color:#222222;
   font-size: 18px !important;
   font-weight: 700;
   text-align: center !important;
-	padding: 0 10px 20px 10px !important;
+  padding: 7% 10px 5% 10px !important;
 	text-transform: uppercase;
   margin: 0px !important;
 }
@@ -2303,13 +2321,6 @@ color:#222222;
 
 .pop-fondo{
   background-color: transparent;
-}
-.fondo2pop{
-  background: #000;
-  opacity: .9;
-  border-radius:12px;
-  margin-top: 20%;
-  padding: 5% 0;
 }
 
 .titulo-pop{
@@ -2346,7 +2357,7 @@ color:#222222;
 .popup2 {
   background-color: #332727 !important;
   margin-top: 100px !important;
-  height: 29% !important;
+  height: 32% !important;
   width: 90% !important;
   border-radius: 10px !important;
   margin-left: 5% !important;
@@ -2366,7 +2377,7 @@ color:#222222;
     padding: 0px!important;
 }
 .popup{
-	background-color: #332727 !important;
+	background-color: transparent !important;
 	margin-top: 100px !important;
 	height: 50% ;
 	width: 90% !important;
