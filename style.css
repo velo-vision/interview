@@ -2198,11 +2198,12 @@ color:#222222;
 /*fin*/
 /*popup*/
 .password23 input[type="password"] {
-    color: #b7b7b7;
-    width: 100%;
-    background: transparent;
-    border: none;
-    padding: 6% 0 6% 5%;
+  color: #b7b7b7;
+  width: 90%;
+  background: transparent;
+  border: none;
+  padding: 6% 0 6% 0;
+  margin-left: 16px;
 }
 .popup-bg3{
 	margin: 14px 0;
@@ -2229,7 +2230,13 @@ color:#222222;
 }
 .text-fin{
 	text-align:center;
-	margin-top: 5%;
+	margin-top: 25%;
+	margin-bottom: 5%;
+}
+.text-fin1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .text-eliminar{
 	color:#f33132;
@@ -2318,7 +2325,7 @@ color:#222222;
   font-size: 18px !important;
   font-weight: 700;
   text-align: center !important;
-  padding: 0 10px 5% 10px !important;
+  padding: 5% 10px 5% 10px !important;
 	text-transform: uppercase;
   margin: 0px !important;
 }
