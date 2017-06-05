@@ -2186,6 +2186,9 @@ color:#222222;
 }
 /*style jorge************************************/
 /*Cambiar clase*/
+.list-block ul:after {
+ background-color: transparent;
+}
 .tipo1 {
 	margin: 14px 0;
 	height: 83%;
@@ -2230,7 +2233,7 @@ color:#222222;
 }
 .text-fin{
 	text-align:center;
-	margin-top: 25%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 .text-fin1 {
@@ -2335,7 +2338,8 @@ color:#222222;
   font-size: 16px !important;
 }
 .linea-popup{
-	border-bottom: 1px solid;
+	border-bottom: 1px solid #402325;
+	width: 100%;
 }
 .cambiar-popup {
   width: 100%;
@@ -3050,7 +3054,7 @@ background: #ff5454;
 }
 .logo_text{
 font-size:22px;
-line-height:50px;
+line-height:49px;
 }
 .logo_image a img{
 max-width:50%;
@@ -4454,6 +4458,13 @@ color: #06c1d0;
   border-radius:12px;
   margin-top: 0%;
   padding: 5% 0;
+}
+.fondo2pop2 {
+  background: #000;
+  opacity: .9;
+  border-radius: 12px;
+  margin-top: 0%;
+  padding: 2% 0;
 }
 
 .titulo-pop{
