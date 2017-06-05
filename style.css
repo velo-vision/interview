@@ -4405,5 +4405,129 @@ color: #06c1d0;
   background: #ee575c;
 
 }
+/*Est pop*/
 
-/*pop*/
+/*informacion*/
+.pop-fondo{
+  background-color: transparent;
+}
+.fondo2pop{
+  background: #000;
+  opacity: .9;
+  border-radius:12px;
+  margin-top: 10%;
+  padding: 5% 0;
+}
+
+.titulo-pop{
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1% 0;
+}
+
+.titulo-pop p{
+  margin: 0px!important;
+  padding: 0px !important;
+}
+.titulo-pop span{
+  font-weight: 300;
+}
+
+.cerrar-pop a{
+  position: initial;
+  width: 100%;
+}
+
+.popup{
+	background-color: transparent;
+	margin-top: 100px ;
+	height: auto;
+	width: 90% ;
+	border-radius: 10px ;
+	margin-left: 5% ;
+}
+.popup .content-block {
+    padding: 0px;
+}
+.cambiar{
+width:100%;
+text-align:center;
+font-size:12px;
+}
+
+.cerrarpop a {
+  height: 30px;
+}
+.linea-pop{
+  background: #402325;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+}
+/*notificacion*/
+.ancho-completo{
+  width: 100%;
+  margin: 2% 0;
+}
+.switch .checkbox {
+  width: 47px;
+  border-radius: 16px;
+  height: 28px;
+  background: #e5e5e5;
+}
+.switch input[type="checkbox"]:checked + .checkbox {
+    background: #b3cf72;
+}
+
+.switch .checkbox:before {
+  width: 42px;
+  border-radius: 16px;
+  height: 23px;
+}
+.switch .checkbox:after {
+  height: 18px;
+  width: 17px;
+  border-radius: 28px;
+  border: solid 3px #b2aeb4;
+}
+
+.size .label-switch{
+  width: 40px;
+  height: 20px;
+}
+.paddiongsiete{
+  padding-left: 7px;
+  font-weight: 300;
+}
+.izquierda{
+  text-align: left !important;
+}
+
+/*PRIVACIADAD*/
+
+.contenido{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  opacity: .8;
+  padding: 0 7%;
+}
+
+/*cambiar contraseña*/
+.ancho-form{
+  width: 95%;
+}
+
+.password input[type="password"] {
+  color: #b7b7b7;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0 0 0 5%;
+}
+
+/*Est fin*/
