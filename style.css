@@ -2397,7 +2397,8 @@ color:#222222;
 }
 .popup{
 	background-color: transparent !important;
-	margin-top: 100px !important;
+	/*margin-top: 100px !important;*/
+  margin-top: 19% !important;
 	height: 50% ;
 	width: 90% !important;
 	border-radius: 10px !important;
@@ -4445,7 +4446,7 @@ color: #06c1d0;
   background: #000;
   opacity: .9;
   border-radius:12px;
-  margin-top: 10%;
+  margin-top: 0%;
   padding: 5% 0;
 }
 
@@ -4501,10 +4502,16 @@ font-size:12px;
   width: 100%;
   margin: 2% 0;
 }
+
+.switch { 
+  width: 56px;
+  height: 32px;
+}
+
 .switch .checkbox {
-  width: 47px;
+  width: 38px;
   border-radius: 16px;
-  height: 28px;
+  height: 22px;
   background: #e5e5e5;
 }
 .switch input[type="checkbox"]:checked + .checkbox {
@@ -4512,29 +4519,36 @@ font-size:12px;
 }
 
 .switch .checkbox:before {
-  width: 42px;
+  width: 33px;
   border-radius: 16px;
-  height: 23px;
+  height: 16px;
 }
-.switch .checkbox:after {
-  height: 18px;
-  width: 17px;
+
+.switch .checkbox:after {  
+  height: 11px;
+  width: 11px;
   border-radius: 28px;
-  border: solid 3px #b2aeb4;
+  border: solid 2px #b2aeb4;
 }
 
 .size .label-switch{
   width: 40px;
   height: 20px;
+
 }
 .paddiongsiete{
-  padding-left: 7px;
+  padding-left: 5%;
   font-weight: 300;
+  width: 80%;
 }
 .izquierda{
   text-align: left !important;
 }
 
+.titulo-notificacion{
+  font-size: 19px;
+  font-weight: 500;
+}
 /*PRIVACIADAD*/
 
 .contenido{
