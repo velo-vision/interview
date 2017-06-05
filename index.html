@@ -312,22 +312,83 @@
     <!-- Login Popup -->
         <!-- fin jrg popup -->
     <div class="popup popup-calificar">
-        <div class="content-block">
-            <h4>¿EStas seguro que quieres
-              dar de baja tu cuenta?</h4>
-              <p>Si esí, escribe tu contraseña.</p>
-            <div class="loginform">
+        <div class="content-block" style="margin: 19px 0;">
+            <p class="cuenta">¿EStas seguro que quieres
+              dar de baja tu cuenta?</p>
+              <p class="escribe">Si es así, escribe tu contraseña.</p>
+            <div class="loginform1">
+              <div class="linea-popup"></div>
                 <form id="LoginForm" method="post">
-                    <input type="password" name="Password" value="" class="form_input required" placeholder="Contraseña" />
-                    <div class="cambiar"><a href="#" data-popup=".popup-forgot" class="open-popup" style="color:red; font-size:18px;">Eliminar cuenta</a></div>
+                  <div class="list-block">
+                    <ul>
+                      <li>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title label">Contraseña:</div>
+                            <div class="item-input">
+                              <input type="text">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                    <div class="cambiar-popup">
+                      <a href="#" data-popup=".popup-suspendida" class="open-popup text-eliminar">Eliminar mi cuenta</a>
+                    </div>
                 </form>
-                <div class="signup_bottom">
-                    <p>Don't have an account?</p>
+                <div class="linea-popup"></div>
+                <div class="cancelar-popup text-fin">
                     <a href="#" class="close-popup">Cancelar</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="popup popup1 popup-suspendida">
+        <div class="content-block" style="margin: 19px 0;">
+          <div class="list-block">
+            <ul>
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label1"><img src="images/app/icon.png" alt=""></div>
+                    <div class="item-input popup-cuenta">
+                        tu cuenta estará supendida
+                        15 días en donde podras
+                        re-activarla, tan solo con
+                        iniciar sesión.
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+            <div class="loginform1">
+                <div class="salir-popup text-fin">
+                    <a href="#" class="close-popup">Salir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup2 popup-cerrar-sesion">
+        <div class="content-block" style="margin: 19px 0;">
+            <p class="seguro">¿Seguro que quieres cerrar la sesión?</p>
+            <div class="loginform1">
+              <div class="linea-popup"></div>
+                <div class="salir-popup boton-salir">
+                    <a href="#" class="close-popup">Salir</a>
+                </div>
+                <div class="linea-popup"></div>
+                <div class="cancelar-popup text-fin">
+                    <a href="#" class="close-popup">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="popup popup-notificaciones">
         <div class="content-block">
             <h4>LOGIN</h4>
@@ -404,8 +465,8 @@
               <p>Desarrollado por: <span>Velosoft S.A de C.V</span></p>
             </div>
             <div class="col-40"></div>
-            <div class="col-20 titulo-pop close_popup_button cerrar-pop">               
-                <a href="#" class="close-popup"><div class="circulo-close">x</div></a>                
+            <div class="col-20 titulo-pop close_popup_button cerrar-pop">
+                <a href="#" class="close-popup"><div class="circulo-close">x</div></a>
             </div>
             <div class="col-40"></div>
           </div>
