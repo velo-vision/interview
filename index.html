@@ -311,30 +311,33 @@
 <!-- Configuracion -->
     <!-- Login Popup -->
         <!-- fin jrg popup -->
+
+<script>
+function CambiarEstilo() {
+    var elemento = document.getElementById("capa-variable");
+    if (elemento.className == "tipo1") {
+      elemento.className = "tipo2";
+    }else {
+      elemento.className = "tipo1";
+    }
+}
+</script>
+
     <div class="popup popup-calificar">
         <div class="content-block popup-bg2">
+          <div id="capa-variable" class="tipo1">
             <p class="cuenta">¿EStas seguro que quieres
               dar de baja tu cuenta?</p>
               <p class="escribe">Si es así, escribe tu contraseña.</p>
             <div class="loginform1">
               <div class="linea-popup"></div>
                 <form id="LoginForm" method="post">
-                  <div class="list-block">
-                    <ul>
-                      <li>
-                        <div class="item-content">
-                          <div class="item-inner">
-                            <div class="item-title label">Contraseña:</div>
-                            <div class="item-input">
-                              <input type="text">
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                    <div class="col-100 password23">
+                      <input type="password" name="contraseña" placeholder="Contraseña:">
+                    </div>
+                    <div class="linea-popup"></div>
                     <div class="cambiar-popup">
-                      <a href="#" data-popup=".popup-suspendida" class="open-popup text-eliminar">Eliminar mi cuenta</a>
+                      <a href="#" data-popup=".popup-suspendida" onclick="javascript:CambiarEstilo();" class="open-popup text-eliminar">Eliminar mi cuenta</a>
                     </div>
                 </form>
                 <div class="linea-popup"></div>
@@ -342,6 +345,7 @@
                     <a href="#" class="close-popup">Cancelar</a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
