@@ -2217,9 +2217,9 @@ color:#222222;
 	border-radius: 15px;
 }
 .popup-bg {
-  margin: 19px 0;
+  margin: 16px 0;
   background: #000;
-  height: 80%;
+  height: 83%;
   border-radius: 15px;
 }
 .boton-salir{
@@ -2230,7 +2230,6 @@ color:#222222;
 .text-fin{
 	text-align:center;
 	margin-top: 5%;
-	margin-bottom: 5%;
 }
 .text-eliminar{
 	color:#f33132;
@@ -2311,7 +2310,7 @@ color:#222222;
     text-align: center !important;
     padding: 5% 10px 5% 10px !important;
     text-transform: uppercase;
-    margin: 0px !important;
+    margin: 0px auto !important;
 }
 .cuenta{
 	color: #e0dede;
@@ -2319,7 +2318,7 @@ color:#222222;
   font-size: 18px !important;
   font-weight: 700;
   text-align: center !important;
-  padding: 7% 10px 5% 10px !important;
+  padding: 0 10px 5% 10px !important;
 	text-transform: uppercase;
   margin: 0px !important;
 }
@@ -4503,7 +4502,7 @@ font-size:12px;
   margin: 2% 0;
 }
 
-.switch { 
+.switch {
   width: 56px;
   height: 32px;
 }
@@ -4524,7 +4523,7 @@ font-size:12px;
   height: 16px;
 }
 
-.switch .checkbox:after {  
+.switch .checkbox:after {
   height: 11px;
   width: 11px;
   border-radius: 28px;
