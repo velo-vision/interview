@@ -2185,6 +2185,11 @@ background-color:#f9f301;
 color:#222222;
 }
 /*style jorge************************************/
+.formato-img23 {
+    width: 85px;
+    height: 55px;
+    padding: 13px 0 13px 17px;
+}
 /*Cambiar clase*/
 .list-block ul:after {
  background-color: transparent;
@@ -3224,7 +3229,7 @@ padding:0px 3px;
     top: 70px !important;
 }
 .inicioSesion p {
-    margin: 6% 0 !important;
+    margin: 6% 0 -6% 0px !important;
 }
 .margininiciosesion {
     margin: 6% 0 !important;
@@ -3232,6 +3237,12 @@ padding:0px 3px;
 }
 
 @media only screen and (min-width:430px) and (max-width: 668px){
+	.img-interview3 {
+    margin: 0% 0 0 42% !important;
+}
+	.content-block {
+    margin: auto auto;
+}
 	.btn-verde img {
     top: 33px !important;
     left: 27px !important;
@@ -3259,7 +3270,8 @@ padding:0px 3px;
 	    padding: 0% 7% !important;
 	}
 	.content-block {
-    padding: 7px 5% !important;
+    /*padding: 7px 5% !important;*/
+	  padding: 30px 0% !important;
 }
 .imgsession {
 	  width: 40% !important;
@@ -3275,7 +3287,7 @@ padding:0px 3px;
     margin: 3% 0 0 0 !important;
 }
 .fondo2 {
-    height: 100px !important;
+    height: 110px !important;
 }
 .circulosColores {
     margin: 3% 0 0 0 !important;
@@ -3443,7 +3455,7 @@ padding:0px 3px;
 }
 
 .margininiciosesion{
-  margin: 3% 0;
+  margin: 2% 0;
 }
 .olvide p{
    font-family: 'Lato', sans-serif;
@@ -3479,10 +3491,10 @@ padding:0px 3px;
   border-radius: 50%;
 }
 .margin-no-sup{
-  margin-top: 3%;
+  margin-top: 2%;
 }
 .margin-tres{
-  margin: 3% 0;
+  margin: 2% 0;
 }
 
 /*perfil a emprezar*/
@@ -3685,7 +3697,7 @@ padding:0px 3px;
   background: transparent;
   padding: 0 0 32px 0!important;
   height: 30px;
-  margin: 10px 0 0 0;
+  margin: 11px 0 0 0;
   text-align: center;
 }
 .E1 {
@@ -3700,7 +3712,7 @@ padding:0px 3px;
     text-align: center;
 }
 .configp{
-  padding: 0px !important;
+  padding: 2px !important;
   height: 40px;
 }
 .imgconf{
