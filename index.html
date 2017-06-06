@@ -323,35 +323,31 @@ function CambiarEstilo() {
 }
 </script>
 
-
-
-    <div class="popup popup-calificar">
-        <div class="content-block popup-bg2">
-          <div id="capa-variable" class="tipo1">
-            <p class="cuenta">¿EStas seguro que quieres
-              dar de baja tu cuenta?</p>
-              <p class="escribe">Si es así, escribe tu contraseña.</p>
-            <div class="loginform1">
-              <div class="linea-popup"></div>
-                <form id="LoginForm" method="post">
-                    <div class="col-100 password23">
-                      <input type="password" name="contraseña" placeholder="Contraseña:">
-                    </div>
-                    <div class="linea-popup"></div>
-                    <div class="cambiar-popup">
-                      <a href="#" data-popup=".popup-suspendida" onclick="javascript:CambiarEstilo();" class="open-popup text-eliminar">Eliminar mi cuenta</a>
-                    </div>
-                </form>
-                <div class="linea-popup"></div>
-                <div class="cancelar-popup text-fin">
-                    <a href="#" class="close-popup">Cancelar</a>
+<div class="popup popup-calificar  pop-fondo">
+    <div class="content-block">
+      <div id="capa-variable" class="tipo1">
+        <p class="cuenta">¿EStas seguro que quieres
+          dar de baja tu cuenta?</p>
+          <p class="escribe">Si es así, escribe tu contraseña.</p>
+        <div class="loginform1">
+          <div class="linea-popup"></div>
+            <form id="LoginForm" method="post">
+                <div class="col-100 password23">
+                  <input type="password" name="contraseña" placeholder="Contraseña:">
                 </div>
+                <div class="linea-popup"></div>
+                <div class="cambiar-popup">
+                  <a href="#" data-popup=".popup-suspendida" onclick="javascript:CambiarEstilo();" class="open-popup text-eliminar">Eliminar mi cuenta</a>
+                </div>
+            </form>
+            <div class="linea-popup"></div>
+            <div class="cancelar-popup text-fin1">
+                <a href="#" class="close-popup">Cancelar</a>
             </div>
         </div>
-        </div>
     </div>
-
-
+    </div>
+</div>
 
     <div class="popup popup-suspendida  pop-fondo">
         <div class="content-block">
@@ -373,8 +369,9 @@ function CambiarEstilo() {
                 </li>
               </ul>
             </div>
-              <div class="loginform1">
-                  <div class="salir-popup text-fin">
+            <div class="linea-popup"></div>
+              <div class="loginform1" style="margin: 0 auto;">
+                  <div class="salir-popup text-fin" style="margin-top: 13px;">
                       <a href="#" class="close-popup">Salir</a>
                   </div>
               </div>
@@ -382,36 +379,9 @@ function CambiarEstilo() {
         </div>
     </div>
 
-    <!-- <div class="popup popup1 popup-suspendida">
-        <div class="content-block popup-bg">
-          <div class="list-block">
-            <ul>
-              <li>
-                <div class="item-content">
-                  <div class="item-inner">
-                    <div class="item-title label1"><img src="images/app/icon.png" alt=""></div>
-                    <div class="item-input popup-cuenta">
-                        tu cuenta estará supendida
-                        15 días en donde podras
-                        re-activarla, tan solo con
-                        iniciar sesión.
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-            <div class="loginform1">
-                <div class="salir-popup text-fin">
-                    <a href="#" class="close-popup">Salir</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="popup popup-cerrar-sesion  pop-fondo">
         <div class="content-block">
-          <div class="row fondo2pop">
+          <div class="row fondo2pop2">
             <p class="seguro">¿Seguro que quieres cerrar la sesión?</p>
             <div class="col-100 loginform1">
               <div class="linea-popup"></div>
