@@ -3237,6 +3237,9 @@ padding:0px 3px;
 }
 
 @media only screen and (min-width:430px) and (max-width: 668px){
+	.fondo-azul {
+    height: 110px !important;
+}
 	.img-interview3 {
     margin: 0% 0 0 42% !important;
 }
@@ -3278,6 +3281,9 @@ padding:0px 3px;
     padding: 3% 33% !important;
 }
 .inicioSesion {
+    display: none !important;
+}
+.inicioSesion1 {
     display: none !important;
 }
 .marginses {
