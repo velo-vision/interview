@@ -4617,4 +4617,9 @@ font-size:12px;
   padding: 0 0 0 5%;
 }
 
+/*tem2*/
+.swiper-container >.alienandotem{
+  position: absolute; 
+  left: 31%;
+}
 /*Est fin*/
