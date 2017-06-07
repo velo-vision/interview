@@ -753,7 +753,7 @@ color:#ffffff;
 font-size:16px;
 }
 .swiper-container > .swiper-pagination {
-bottom: 17%;
+bottom: 20%;
 left: 35%;
 width: 95%;
 }
@@ -2738,7 +2738,7 @@ p {
 	text-align: center;
 	text-transform: uppercase;
   font-weight: 700;
-  padding: 3% !important;
+  padding: 4% !important;
 }
 .linea2 {
     height: 1px;
@@ -3046,7 +3046,7 @@ height:51px;
 background: #ea5151;
 }
 .navbarpages-verde{
-height:50px;
+height:51px;
 background: #018792;
 }
 .navbarpages-gris {
@@ -3195,7 +3195,7 @@ padding:0px 3px;
     top: 60px !important;
 }
 .lineaatravezada {
-    bottom: 19.4% !important;
+    bottom: 21.9% !important;
 }
 .position-imagen {
     top: 23% !important;
@@ -3227,6 +3227,14 @@ padding:0px 3px;
 }
 .num {
     top: 70px !important;
+}
+.num2 {
+    top: 105px !important;
+}
+
+.quieto{
+	position: relative;
+	bottom: -35px;
 }
 .inicioSesion p {
     margin: 6% 0 -6% 0px !important;
@@ -3692,7 +3700,7 @@ padding:0px 3px;
 .contetn-op1{
   background: #03a7b5;
   border-radius: 12px;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .E{
@@ -3897,7 +3905,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
  background: #fff;
 }
 .azul-empresa1{
-	background-image:url(images/perfil/fondo.png);
+	background-image:url(images/perfil/fondo1.png);
   background-size: 100%;
 }
 
@@ -3907,7 +3915,7 @@ label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-ch
 }
 
 .letra-azul p{
-  padding: 3px 8px 6px 0 !important;
+  padding: 1px 8px 6px 0 !important;
 }
 .img2bus {
     width: 22px;
